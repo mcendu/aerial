@@ -28,8 +28,11 @@ return function(anchorX)
         destination = {
             {
                 id = "lanecover",
+                loop = 1500,
                 dst = {
-                    { x = anchorX, y = 1080, w = 460, h = 710 }
+                    { time = 0, x = anchorX, y = 2160, w = 460, h = 710, acc = 2 },
+                    { time = 1000 },
+                    { time = 1500, y = 1080 }
                 }
             }
         }
