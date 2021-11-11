@@ -49,7 +49,7 @@ local function main()
     s:loadComponent(skin_config.get_path("scripts/notes-textures.lua"))
     s:loadComponent(skin_config.get_path("scripts/notes-7k.lua"), 70, 370, SIDE_1P)
 
-    s:loadComponent(skin_config.get_path("scripts/cover-sp.lua"), 70);
+    s:loadComponent(skin_config.get_path("scripts/cover-sp.lua"), 70)
 
     return s
 end
