@@ -31,7 +31,7 @@ local header = {
     playstart = 1000,
     scene = 3600000,
     input = 1000,
-    close = 3000,
+    close = 1000,
     fadeout = 1000,
     property = {},
 }
@@ -43,6 +43,8 @@ local function main()
         { id = 0, path = "textures/frame-sp.png" },
         { id = 1, path = "textures/common.png" }
     }
+
+    s:loadComponent(skin_config.get_path("scripts/stageframe-sp.lua"), SIDE_1P)
 
     s:loadComponent(skin_config.get_path("scripts/notes-textures.lua"))
     s:loadComponent(skin_config.get_path("scripts/notes-7k.lua"), 70, 370, SIDE_1P)

@@ -1,5 +1,5 @@
 --[[
-    stage-sp.lua
+    stageframe-sp.lua -- Background of the playfield.
     Part of Aerial, a skin for beatoraja.
     Copyright (C) 2021 McEndu.
 
@@ -28,7 +28,7 @@ return function(side)
     if side == 0 then
         player_prefix = "1p-"
         progress_border_x = 48
-        progress_tborder_x = progress_border_x - 33
+        progress_tborder_x = progress_border_x - 30
         stage_x = 10
     else
         player_prefix = "2p-"
@@ -37,7 +37,6 @@ return function(side)
         stage_x = 1920 - 10 - 576
     end
 
-    -- Textures
     c.image = {
         { id = "1p-stage", src = 0, x = 0, y = 0, w = 576, h = 960 },
         { id = "2p-stage", src = 0, x = 576, y = 0, w = 576, h = 960 },
@@ -47,30 +46,32 @@ return function(side)
         { id = "2p-progress-tborder", src = 0, x = 1824, y = 192, w = 32, h = 64 },
     }
 
-    -- Sprites
     c.destination = {
         {
             id = player_prefix .. "stage",
             blend = 1,
+            loop = 333,
             dst = {
-                { time = 0, x = stage_x, y = -930, w = 576, h = 960, acc = 2 },
-                { time = 333, y = 0 }
+                { time = 0, x = stage_x, y = 1080, w = 576, h = 960, acc = 2 },
+                { time = 333, y = 120 }
             }
         },
         {
             id = "progress-border",
             blend = 1,
+            loop = 416,
             dst = {
-                { time = 0, x = progress_border_x, y = 98, w = 32, h = 608, a = 0 },
-                { time = 333 },
+                { time = 333, x = progress_border_x, y = 374, w = 32, h = 608, a = 0 },
                 { time = 416, a = 255 }
             }
         },
         {
             id = player_prefix .. "progress-tborder",
             blend = 1,
+            loop = 500,
             dst = {
-                { time = 0, x = progress_tborder_x, y = 97 - 64, w = 32, h = 64, a = 0 }
+                { time = 416, x = progress_tborder_x, y = 983, w = 32, h = 64, a = 0 },
+                { time = 500, a = 255 }
             }
         }
     }
