@@ -1,0 +1,1428 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="1024"
+   viewBox="0 0 1024 1024"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="common.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:export-filename="common.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1342"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="1"
+     inkscape:cx="236.5"
+     inkscape:cy="563"
+     inkscape:window-width="1284"
+     inkscape:window-height="1032"
+     inkscape:window-x="496"
+     inkscape:window-y="14"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     inkscape:snap-bbox="true"
+     inkscape:snap-nodes="false"
+     inkscape:bbox-paths="false"
+     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-text-baseline="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1431"
+       spacingx="32"
+       spacingy="32"
+       empspacing="8"
+       color="#ff6f3f"
+       opacity="0.1254902"
+       empcolor="#ff6f3f"
+       empopacity="0.25098039" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1337">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect31977"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,0,0,1 @ F,0,1,1,0,15.11811,0,1 @ F,0,0,1,0,0,0,1"
+       unit="mm"
+       method="auto"
+       mode="F"
+       radius="4"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="true"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect12618"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,0,0,1 @ F,0,1,1,0,15.11811,0,1 @ F,0,0,1,0,0,0,1"
+       unit="mm"
+       method="auto"
+       mode="F"
+       radius="4"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="true"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <!-- Orbitron x=0 y=0 w=40x11 h=40 -->
+    <g
+       id="g39651"
+       style="display:inline;fill:#ffffff;fill-opacity:1"
+       transform="translate(-3200,-1280)">
+      <text
+         xml:space="preserve"
+         style="font-size:48px;line-height:1.25;font-family:Orbitron;-inkscape-font-specification:Orbitron;fill-opacity:1"
+         x="3202.3679"
+         y="1320"
+         id="text26658"><tspan
+           sodipodi:role="line"
+           x="3202.3679"
+           y="1320"
+           id="tspan28252">0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:48px;line-height:1.25;font-family:Orbitron;-inkscape-font-specification:Orbitron;fill-opacity:1"
+         x="3265.5039"
+         y="1320"
+         id="text31710"><tspan
+           sodipodi:role="line"
+           x="3265.5039"
+           y="1320"
+           id="tspan31708">1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:48px;line-height:1.25;font-family:Orbitron;-inkscape-font-specification:Orbitron;fill-opacity:1"
+         x="3282.3679"
+         y="1320"
+         id="text33509"><tspan
+           sodipodi:role="line"
+           x="3282.3679"
+           y="1320"
+           id="tspan33507">2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:48px;line-height:1.25;font-family:Orbitron;-inkscape-font-specification:Orbitron;fill-opacity:1"
+         x="3322.512"
+         y="1320"
+         id="text33513"><tspan
+           sodipodi:role="line"
+           x="3322.512"
+           y="1320"
+           id="tspan34081">3</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:48px;line-height:1.25;font-family:Orbitron;-inkscape-font-specification:Orbitron;fill-opacity:1"
+         x="3366.304"
+         y="1320"
+         id="text33517"><tspan
+           sodipodi:role="line"
+           x="3366.304"
+           y="1320"
+           id="tspan33515">4</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:48px;line-height:1.25;font-family:Orbitron;-inkscape-font-specification:Orbitron;fill-opacity:1"
+         x="3402.3679"
+         y="1320"
+         id="text33521"><tspan
+           sodipodi:role="line"
+           x="3402.3679"
+           y="1320"
+           id="tspan33519">5</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:48px;line-height:1.25;font-family:Orbitron;-inkscape-font-specification:Orbitron;fill-opacity:1"
+         x="3442.3679"
+         y="1320"
+         id="text33525"><tspan
+           sodipodi:role="line"
+           x="3442.3679"
+           y="1320"
+           id="tspan33523">6</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:48px;line-height:1.25;font-family:Orbitron;-inkscape-font-specification:Orbitron;fill-opacity:1"
+         x="3491.0081"
+         y="1320"
+         id="text33529"><tspan
+           sodipodi:role="line"
+           x="3491.0081"
+           y="1320"
+           id="tspan33527">7</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:48px;line-height:1.25;font-family:Orbitron;-inkscape-font-specification:Orbitron;fill-opacity:1"
+         x="3522.3679"
+         y="1320"
+         id="text33533"><tspan
+           sodipodi:role="line"
+           x="3522.3679"
+           y="1320"
+           id="tspan33531">8</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:48px;line-height:1.25;font-family:Orbitron;-inkscape-font-specification:Orbitron;fill-opacity:1"
+         x="3562.6079"
+         y="1320"
+         id="text33537"><tspan
+           sodipodi:role="line"
+           x="3562.6079"
+           y="1320"
+           id="tspan33535">9</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:48px;line-height:1.25;font-family:Orbitron;-inkscape-font-specification:Orbitron;opacity:0.25;fill-opacity:1"
+         x="3602.3679"
+         y="1320"
+         id="text33541"><tspan
+           sodipodi:role="line"
+           x="3602.3679"
+           y="1320"
+           id="tspan33539">0</tspan></text>
+    </g>
+    <!-- Exo 2 Large x=0 y=64 w=24x11 h=32 -->
+    <g
+       id="g60522"
+       style="fill:#ffffff;fill-opacity:1"
+       transform="translate(-3200,-1280)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3200"
+         y="1374"
+         id="text43770"><tspan
+           sodipodi:role="line"
+           x="3200"
+           y="1374"
+           id="tspan48738">0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3224"
+         y="1374"
+         id="text43770-3"><tspan
+           sodipodi:role="line"
+           x="3224"
+           y="1374"
+           id="tspan48738-8">1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3248"
+         y="1374"
+         id="text43770-36"><tspan
+           sodipodi:role="line"
+           x="3248"
+           y="1374"
+           id="tspan48738-85">2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3272"
+         y="1374"
+         id="text43770-1"><tspan
+           sodipodi:role="line"
+           x="3272"
+           y="1374"
+           id="tspan48738-7">3</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3296"
+         y="1374"
+         id="text43770-2"><tspan
+           sodipodi:role="line"
+           x="3296"
+           y="1374"
+           id="tspan48738-9">4</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3320"
+         y="1374"
+         id="text43770-7"><tspan
+           sodipodi:role="line"
+           x="3320"
+           y="1374"
+           id="tspan48738-0">5</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3344"
+         y="1374"
+         id="text43770-75"><tspan
+           sodipodi:role="line"
+           x="3344"
+           y="1374"
+           id="tspan48738-92">6</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3368"
+         y="1374"
+         id="text43770-0"><tspan
+           sodipodi:role="line"
+           x="3368"
+           y="1374"
+           id="tspan48738-5">7</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3392"
+         y="1374"
+         id="text43770-17"><tspan
+           sodipodi:role="line"
+           x="3392"
+           y="1374"
+           id="tspan48738-89">8</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3416"
+         y="1374"
+         id="text43770-5"><tspan
+           sodipodi:role="line"
+           x="3416"
+           y="1374"
+           id="tspan48738-3">9</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;opacity:0.25;fill-opacity:1"
+         x="3440"
+         y="1374"
+         id="text43770-8"><tspan
+           sodipodi:role="line"
+           x="3440"
+           y="1374"
+           id="tspan48738-09">0</tspan></text>
+    </g>
+    <!-- Exo 2 x=0 y=128 w=15x12 h=20x2 -->
+    <g
+       id="g93913"
+       style="fill:#ffffff;fill-opacity:1"
+       transform="translate(-3200,-1280)">
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3200"
+         y="1426"
+         id="text78802"><tspan
+           sodipodi:role="line"
+           id="tspan78800"
+           x="3200"
+           y="1426">0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3215"
+         y="1426"
+         id="text79966"><tspan
+           sodipodi:role="line"
+           id="tspan79964"
+           x="3215"
+           y="1426">1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3230"
+         y="1426"
+         id="text80796"><tspan
+           sodipodi:role="line"
+           id="tspan80794"
+           x="3230"
+           y="1426">2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3245"
+         y="1426"
+         id="text80866"><tspan
+           sodipodi:role="line"
+           id="tspan80864"
+           x="3245"
+           y="1426">3</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3260"
+         y="1426"
+         id="text81148"><tspan
+           sodipodi:role="line"
+           id="tspan81146"
+           x="3260"
+           y="1426">4</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3275"
+         y="1426"
+         id="text82016"><tspan
+           sodipodi:role="line"
+           id="tspan82014"
+           x="3275"
+           y="1426">5</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3290"
+         y="1426"
+         id="text82678"><tspan
+           sodipodi:role="line"
+           id="tspan82676"
+           x="3290"
+           y="1426">6</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3305"
+         y="1426"
+         id="text82922"><tspan
+           sodipodi:role="line"
+           id="tspan82920"
+           x="3305"
+           y="1426">7</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3320"
+         y="1426"
+         id="text83218"><tspan
+           sodipodi:role="line"
+           id="tspan83216"
+           x="3320"
+           y="1426">8</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3335"
+         y="1426"
+         id="text83684"><tspan
+           sodipodi:role="line"
+           id="tspan83682"
+           x="3335"
+           y="1426">9</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3365"
+         y="1426"
+         id="text88126"><tspan
+           sodipodi:role="line"
+           id="tspan88124"
+           x="3365"
+           y="1426">+</tspan></text>
+    </g>
+    <g
+       id="g93913-4"
+       style="fill:#d19494;fill-opacity:1"
+       transform="translate(-3200,-1260)">
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3200"
+         y="1426"
+         id="text78802-3"><tspan
+           sodipodi:role="line"
+           id="tspan78800-4"
+           x="3200"
+           y="1426">0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3215"
+         y="1426"
+         id="text79966-2"><tspan
+           sodipodi:role="line"
+           id="tspan79964-2"
+           x="3215"
+           y="1426">1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3230"
+         y="1426"
+         id="text80796-4"><tspan
+           sodipodi:role="line"
+           id="tspan80794-6"
+           x="3230"
+           y="1426">2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3245"
+         y="1426"
+         id="text80866-7"><tspan
+           sodipodi:role="line"
+           id="tspan80864-7"
+           x="3245"
+           y="1426">3</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3260"
+         y="1426"
+         id="text81148-8"><tspan
+           sodipodi:role="line"
+           id="tspan81146-7"
+           x="3260"
+           y="1426">4</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3275"
+         y="1426"
+         id="text82016-4"><tspan
+           sodipodi:role="line"
+           id="tspan82014-8"
+           x="3275"
+           y="1426">5</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3290"
+         y="1426"
+         id="text82678-0"><tspan
+           sodipodi:role="line"
+           id="tspan82676-6"
+           x="3290"
+           y="1426">6</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3305"
+         y="1426"
+         id="text82922-7"><tspan
+           sodipodi:role="line"
+           id="tspan82920-4"
+           x="3305"
+           y="1426">7</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3320"
+         y="1426"
+         id="text83218-7"><tspan
+           sodipodi:role="line"
+           id="tspan83216-9"
+           x="3320"
+           y="1426">8</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3335"
+         y="1426"
+         id="text83684-2"><tspan
+           sodipodi:role="line"
+           id="tspan83682-3"
+           x="3335"
+           y="1426">9</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill-opacity:1"
+         x="3365"
+         y="1426"
+         id="text88126-2"><tspan
+           sodipodi:role="line"
+           id="tspan88124-0"
+           x="3365"
+           y="1426">−</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:start;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.999999"
+       x="0.056026459"
+       y="370.87201"
+       id="text30908"><tspan
+         sodipodi:role="line"
+         id="tspan30906"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.999999"
+         x="0.056026459"
+         y="370.87201">EX SCORE </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:start;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.999999"
+       x="0.6800499"
+       y="402.84802"
+       id="text30908-6-6"><tspan
+         sodipodi:role="line"
+         id="tspan30906-2-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.999999"
+         x="0.6800499"
+         y="402.84802">SPEED </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:start;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.999999"
+       x="0.51195908"
+       y="434.87201"
+       id="text30908-6"><tspan
+         sodipodi:role="line"
+         id="tspan30906-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:0.999999"
+         x="0.51195908"
+         y="434.87201">GRADE </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:center;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.999999"
+       x="31.831987"
+       y="274.776"
+       id="text32001"><tspan
+         sodipodi:role="line"
+         id="tspan31999"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#ffffff;fill-opacity:1;stroke-width:0.999999"
+         x="31.831987"
+         y="274.776">BPM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:center;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.999999"
+       x="32.167965"
+       y="242.56"
+       id="text32001-3"><tspan
+         sodipodi:role="line"
+         id="tspan31999-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#ffffff;fill-opacity:1;stroke-width:0.999999"
+         x="32.167965"
+         y="242.56">MIN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:center;text-anchor:middle;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.999999"
+       x="31.423977"
+       y="306.56"
+       id="text32001-0"><tspan
+         sodipodi:role="line"
+         id="tspan31999-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';fill:#ffffff;fill-opacity:1;stroke-width:0.999999"
+         x="31.423977"
+         y="306.56">MAX</tspan></text>
+    <g
+       id="g72883">
+      <g
+         id="g63056"
+         transform="matrix(3.7795276,0,0,3.7795276,128,416)"
+         style="display:inline">
+        <rect
+           style="opacity:0.995;fill:#ff3366;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           id="rect45053"
+           width="52.916668"
+           height="8.4666662"
+           x="0"
+           y="0"
+           rx="4.2333331" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;stroke-width:0.264583"
+           x="4.2333341"
+           y="6.4272766"
+           id="text49599"><tspan
+             sodipodi:role="line"
+             id="tspan49597"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;stroke-width:0.264583"
+             x="4.2333341"
+             y="6.4272766">ANOTHER</tspan></text>
+      </g>
+      <g
+         id="g63056-5"
+         transform="matrix(3.7795276,0,0,3.7795276,128,352)"
+         style="display:inline">
+        <rect
+           style="opacity:0.995;fill:#ffcc33;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           id="rect45053-1"
+           width="52.916668"
+           height="8.4666662"
+           x="0"
+           y="0"
+           rx="4.2333331" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;stroke-width:0.264583"
+           x="4.2333341"
+           y="6.4272766"
+           id="text49599-1"><tspan
+             sodipodi:role="line"
+             id="tspan49597-9"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;stroke-width:0.264583"
+             x="4.2333341"
+             y="6.4272766">HYPER</tspan></text>
+      </g>
+      <g
+         id="g63056-0"
+         transform="matrix(3.7795276,0,0,3.7795276,128,288)"
+         style="display:inline">
+        <rect
+           style="opacity:0.995;fill:#33bbff;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           id="rect45053-16"
+           width="52.916668"
+           height="8.4666662"
+           x="0"
+           y="0"
+           rx="4.2333331" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;stroke-width:0.264583"
+           x="4.2333341"
+           y="6.4272766"
+           id="text49599-4"><tspan
+             sodipodi:role="line"
+             id="tspan49597-0"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;stroke-width:0.264583"
+             x="4.2333341"
+             y="6.4272766">NORMAL</tspan></text>
+      </g>
+      <g
+         id="g63056-1"
+         transform="matrix(3.7795276,0,0,3.7795276,128,224)"
+         style="display:inline">
+        <rect
+           style="opacity:0.995;fill:#33ff44;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           id="rect45053-8"
+           width="52.916668"
+           height="8.4666662"
+           x="0"
+           y="0"
+           rx="4.2333331" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;stroke-width:0.264583"
+           x="4.2333341"
+           y="6.4272766"
+           id="text49599-8"><tspan
+             sodipodi:role="line"
+             id="tspan49597-01"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;stroke-width:0.264583"
+             x="4.2333341"
+             y="6.4272766">BEGINNER</tspan></text>
+      </g>
+      <g
+         id="g63056-19"
+         transform="matrix(3.7795276,0,0,3.7795276,128,480)"
+         style="display:inline">
+        <rect
+           style="opacity:0.995;fill:#9933ff;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           id="rect45053-2"
+           width="52.916668"
+           height="8.4666662"
+           x="0"
+           y="0"
+           rx="4.2333331" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;stroke-width:0.264583"
+           x="4.2333341"
+           y="6.4272766"
+           id="text49599-5"><tspan
+             sodipodi:role="line"
+             id="tspan49597-1"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;stroke-width:0.264583"
+             x="4.2333341"
+             y="6.4272766">INSANE</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g39882">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#93bcd1;fill-opacity:1;stroke-width:0.999999"
+         x="512.87201"
+         y="22.896"
+         id="text19150"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#93bcd1;fill-opacity:1;stroke-width:0.999999"
+           x="512.87201"
+           y="22.896"
+           id="tspan44572">CURRENT SCORE</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#93d198;fill-opacity:1;stroke-width:0.999999"
+         x="512.32001"
+         y="54.896"
+         id="text19150-9"><tspan
+           sodipodi:role="line"
+           id="tspan19148-4"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#93d198;fill-opacity:1;stroke-width:0.999999"
+           x="512.32001"
+           y="54.896">PERSONAL BEST</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="512.87201"
+         y="214.896"
+         id="text19150-90"><tspan
+           sodipodi:role="line"
+           id="tspan36332"
+           x="512.87201"
+           y="214.896"
+           style="stroke-width:0.999999">GRADE AAA−</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="512.87201"
+         y="438.896"
+         id="text19150-90-6"><tspan
+           sodipodi:role="line"
+           id="tspan36332-1"
+           x="512.87201"
+           y="438.896"
+           style="stroke-width:0.999999">ONLINE BEST</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="512.87201"
+         y="182.896"
+         id="text19150-90-0"><tspan
+           sodipodi:role="line"
+           id="tspan36332-8"
+           x="512.87201"
+           y="182.896"
+           style="stroke-width:0.999999">GRADE AAA</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="512.87201"
+         y="150.896"
+         id="text19150-90-4"><tspan
+           sodipodi:role="line"
+           id="tspan36332-6"
+           x="512.87201"
+           y="150.896"
+           style="stroke-width:0.999999">GRADE AAA+</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="512.87201"
+         y="118.896"
+         id="text19150-90-7"><tspan
+           sodipodi:role="line"
+           id="tspan36332-3"
+           x="512.87201"
+           y="118.896"
+           style="stroke-width:0.999999">GRADE MAX</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="512.87201"
+         y="246.896"
+         id="text19150-90-07"><tspan
+           sodipodi:role="line"
+           id="tspan36332-4"
+           x="512.87201"
+           y="246.896"
+           style="stroke-width:0.999999">GRADE AA+</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="512.87201"
+         y="278.896"
+         id="text19150-90-3"><tspan
+           sodipodi:role="line"
+           id="tspan36332-45"
+           x="512.87201"
+           y="278.896"
+           style="stroke-width:0.999999">GRADE AA</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="512.87201"
+         y="310.896"
+         id="text19150-90-5"><tspan
+           sodipodi:role="line"
+           id="tspan36332-9"
+           x="512.87201"
+           y="310.896"
+           style="stroke-width:0.999999">GRADE AA−</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="512.87201"
+         y="342.896"
+         id="text19150-90-06"><tspan
+           sodipodi:role="line"
+           id="tspan36332-61"
+           x="512.87201"
+           y="342.896"
+           style="stroke-width:0.999999">GRADE A+</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="512.87201"
+         y="374.896"
+         id="text19150-90-36"><tspan
+           sodipodi:role="line"
+           id="tspan36332-83"
+           x="512.87201"
+           y="374.896"
+           style="stroke-width:0.999999">GRADE A</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="512.87201"
+         y="406.896"
+         id="text19150-90-43"><tspan
+           sodipodi:role="line"
+           id="tspan36332-36"
+           x="512.87201"
+           y="406.896"
+           style="stroke-width:0.999999">GRADE A−</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="512.32001"
+         y="86.896004"
+         id="text19150-90-58"><tspan
+           sodipodi:role="line"
+           id="tspan36332-34"
+           x="512.32001"
+           y="86.896004"
+           style="stroke-width:0.999999">NEXT GRADE</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:end;text-anchor:end;display:inline;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+       x="191.19998"
+       y="637.68799"
+       id="text51483"><tspan
+         sodipodi:role="line"
+         id="tspan51481"
+         style="font-size:24px;text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="191.19998"
+         y="637.68799">HARD GAUGE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:end;text-anchor:end;display:inline;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+       x="191.19998"
+       y="669.68799"
+       id="text51483-8"><tspan
+         sodipodi:role="line"
+         id="tspan51481-4"
+         style="font-size:24px;text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="191.19998"
+         y="669.68799">EX-HARD GAUGE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:end;text-anchor:end;display:inline;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+       x="191.19998"
+       y="573.68799"
+       id="text51483-3"><tspan
+         sodipodi:role="line"
+         id="tspan51481-3"
+         style="font-size:24px;text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="191.19998"
+         y="573.68799">EASY GAUGE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:end;text-anchor:end;display:inline;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+       x="191.19998"
+       y="541.68799"
+       id="text51483-4"><tspan
+         sodipodi:role="line"
+         id="tspan51481-7"
+         style="font-size:24px;text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="191.19998"
+         y="541.68799">AS-EASY GAUGE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:end;text-anchor:end;display:inline;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+       x="191.48799"
+       y="701.784"
+       id="text51483-2"><tspan
+         sodipodi:role="line"
+         id="tspan51481-2"
+         style="font-size:24px;text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="191.48799"
+         y="701.784">HAZARD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:end;text-anchor:end;display:inline;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+       x="190.45599"
+       y="733.68799"
+       id="text51483-2-2"><tspan
+         sodipodi:role="line"
+         id="tspan51481-2-3"
+         style="font-size:24px;text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="190.45599"
+         y="733.68799">P ATTACK</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:end;text-anchor:end;display:inline;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+       x="190.45599"
+       y="765.71198"
+       id="text51483-2-0"><tspan
+         sodipodi:role="line"
+         id="tspan51481-2-9"
+         style="font-size:24px;text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="190.45599"
+         y="765.71198">MAX ATTACK</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:end;text-anchor:end;display:inline;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+       x="191.19998"
+       y="605.68799"
+       id="text51483-23"><tspan
+         sodipodi:role="line"
+         id="tspan51481-5"
+         style="font-size:24px;text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="191.19998"
+         y="605.68799">GROOVE GAUGE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="fill:#ffffff;fill-opacity:1;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal'"
+       x="3458"
+       y="1822"
+       id="text30342"
+       transform="translate(-3200,-1280)"><tspan
+         sodipodi:role="line"
+         id="tspan30340"
+         x="3458"
+         y="1822">AAA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="fill:#ffffff;fill-opacity:1;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal'"
+       x="3458"
+       y="1854"
+       id="text32230"
+       transform="translate(-3200,-1280)"><tspan
+         sodipodi:role="line"
+         id="tspan32228"
+         x="3458"
+         y="1854">AA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="fill:#ffffff;fill-opacity:1;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal'"
+       x="3458"
+       y="1886"
+       id="text33466"
+       transform="translate(-3200,-1280)"><tspan
+         sodipodi:role="line"
+         id="tspan33464"
+         x="3458"
+         y="1886">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="fill:#ffffff;fill-opacity:1;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal'"
+       x="3458"
+       y="1918"
+       id="text34214"
+       transform="translate(-3200,-1280)"><tspan
+         sodipodi:role="line"
+         id="tspan34212"
+         x="3458"
+         y="1918">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="fill:#ffffff;fill-opacity:1;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal'"
+       x="3458"
+       y="1950"
+       id="text35272"
+       transform="translate(-3200,-1280)"><tspan
+         sodipodi:role="line"
+         id="tspan35270"
+         x="3458"
+         y="1950">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="fill:#ffffff;fill-opacity:1;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal'"
+       x="3458"
+       y="1982"
+       id="text35998"
+       transform="translate(-3200,-1280)"><tspan
+         sodipodi:role="line"
+         id="tspan35996"
+         x="3458"
+         y="1982">D</tspan></text>
+    <text
+       xml:space="preserve"
+       style="fill:#ffffff;fill-opacity:1;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal'"
+       x="3458"
+       y="2014"
+       id="text36426"
+       transform="translate(-3200,-1280)"><tspan
+         sodipodi:role="line"
+         id="tspan36424"
+         x="3458"
+         y="2014">E</tspan></text>
+    <text
+       xml:space="preserve"
+       style="fill:#ffffff;fill-opacity:1;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal'"
+       x="3458"
+       y="2046"
+       id="text36744"
+       transform="translate(-3200,-1280)"><tspan
+         sodipodi:role="line"
+         id="tspan36742"
+         x="3458"
+         y="2046">F</tspan></text>
+    <g
+       id="g12255"
+       transform="translate(-953.5281,-660.8964)"
+       style="fill:#ffffff;fill-opacity:1;display:inline">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="1416.5278"
+         y="1205.7924"
+         id="text5836"><tspan
+           sodipodi:role="line"
+           id="tspan5834"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+           x="1416.5278"
+           y="1205.7924">PGREAT</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="1416.5278"
+         y="1265.7924"
+         id="text5836-8"><tspan
+           sodipodi:role="line"
+           id="tspan5834-5"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+           x="1416.5278"
+           y="1265.7924">GOOD</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="1416.5278"
+         y="1295.6964"
+         id="text5836-0"><tspan
+           sodipodi:role="line"
+           id="tspan5834-7"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+           x="1416.5278"
+           y="1295.6964">BAD</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="1416.5278"
+         y="1325.7924"
+         id="text5836-4"><tspan
+           sodipodi:role="line"
+           id="tspan5834-3"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+           x="1416.5278"
+           y="1325.7924">POOR</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="1416.5278"
+         y="1235.792"
+         id="text5836-6"><tspan
+           sodipodi:role="line"
+           id="tspan5834-8"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+           x="1416.5278"
+           y="1235.792">GREAT</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="1416.5278"
+         y="1361.6964"
+         id="text5836-1"><tspan
+           sodipodi:role="line"
+           id="tspan5834-2"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+           x="1416.5278"
+           y="1361.6964">EARLY</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="1416.5278"
+         y="1391.5284"
+         id="text5836-41"><tspan
+           sodipodi:role="line"
+           id="tspan5834-0"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+           x="1416.5278"
+           y="1391.5284">LATE</tspan></text>
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 1433.0281,1172.8964 v 224.8819 a 36.498346,36.498346 112.5 0 1 -10.6901,25.8082 l -19.3099,19.3099"
+         id="path30797"
+         sodipodi:nodetypes="ccc"
+         inkscape:path-effect="#path-effect31977"
+         inkscape:original-d="m 1433.0281,1172.8964 v 240 l -30,30" />
+    </g>
+    <g
+       id="g16421"
+       style="fill:#ffffff;fill-opacity:1;display:inline"
+       transform="translate(-1024,-640)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="1553"
+         y="1184.896"
+         id="text5836-2"><tspan
+           sodipodi:role="line"
+           id="tspan5834-1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+           x="1553"
+           y="1184.896">PGREAT</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="1553"
+         y="1244.896"
+         id="text5836-8-5"><tspan
+           sodipodi:role="line"
+           id="tspan5834-5-0"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+           x="1553"
+           y="1244.896">GOOD</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="1553"
+         y="1274.8"
+         id="text5836-0-7"><tspan
+           sodipodi:role="line"
+           id="tspan5834-7-2"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+           x="1553"
+           y="1274.8">BAD</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="1552.5"
+         y="1304.896"
+         id="text5836-4-8"><tspan
+           sodipodi:role="line"
+           id="tspan5834-3-6"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+           x="1552.5"
+           y="1304.896">POOR</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="1553"
+         y="1214.8956"
+         id="text5836-6-0"><tspan
+           sodipodi:role="line"
+           id="tspan5834-8-5"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+           x="1553"
+           y="1214.8956">GREAT</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="1553"
+         y="1340.8"
+         id="text5836-1-2"><tspan
+           sodipodi:role="line"
+           id="tspan5834-2-3"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+           x="1553"
+           y="1340.8">EARLY</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+         x="1553"
+         y="1370.632"
+         id="text5836-41-4"><tspan
+           sodipodi:role="line"
+           id="tspan5834-0-9"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
+           x="1553"
+           y="1370.632">LATE</tspan></text>
+      <path
+         style="fill:none;stroke:#ffffff;stroke-width:0.999999px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 1536.5,1152 v 224.8819 a 36.498346,36.498346 67.5 0 0 10.6901,25.8082 L 1566.5,1422"
+         id="path30797-8"
+         sodipodi:nodetypes="ccc"
+         inkscape:path-effect="#path-effect12618"
+         inkscape:original-d="m 1536.5,1152 v 240 l 30,30" />
+    </g>
+    <g
+       id="g1126">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#93bcd1;fill-opacity:1;stroke-width:0.999999"
+         x="769.25598"
+         y="22.232"
+         id="text19152"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#93bcd1;fill-opacity:1;stroke-width:0.999999"
+           x="769.25598"
+           y="22.232"
+           id="tspan44572-2">現在のスコア</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#93d198;fill-opacity:1;stroke-width:0.999999"
+         x="767.64801"
+         y="54.327999"
+         id="text19152-2"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#93d198;fill-opacity:1;stroke-width:0.999999"
+           x="767.64801"
+           y="54.327999"
+           id="tspan44572-2-3"
+           sodipodi:role="line">自己のベスト</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="768.17603"
+         y="86.232002"
+         id="text19152-6"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+           x="768.17603"
+           y="86.232002"
+           id="tspan44572-2-8">LV NEXT</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="768.17603"
+         y="118.232"
+         id="text19152-4"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+           x="768.17603"
+           y="118.232"
+           id="tspan44572-2-33">MAX</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="768.17603"
+         y="150.23199"
+         id="text19152-8"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+           x="768.17603"
+           y="150.23199"
+           id="tspan44572-2-6">LV AAA+</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="768.17603"
+         y="182.23199"
+         id="text19152-3"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+           x="768.17603"
+           y="182.23199"
+           id="tspan44572-2-7">LV AAA</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="768.17603"
+         y="214.23199"
+         id="text19152-0"><tspan
+           sodipodi:role="line"
+           id="tspan59203"
+           x="768.17603"
+           y="214.23199">LV AAA−</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="768.17603"
+         y="246.23199"
+         id="text19152-46"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+           x="768.17603"
+           y="246.23199"
+           id="tspan44572-2-75">LV AA+</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="768.17603"
+         y="278.23199"
+         id="text19152-27"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+           x="768.17603"
+           y="278.23199"
+           id="tspan44572-2-70">LV AA</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="768.17603"
+         y="310.23199"
+         id="text19152-47"><tspan
+           sodipodi:role="line"
+           id="tspan62095"
+           x="768.17603"
+           y="310.23199">LV AA−</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="768.17603"
+         y="342.23199"
+         id="text19152-65"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+           x="768.17603"
+           y="342.23199"
+           id="tspan44572-2-82">LV A+</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="768.17603"
+         y="374.23199"
+         id="text19152-25"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+           x="768.17603"
+           y="374.23199"
+           id="tspan44572-2-9">LV A</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="768.17603"
+         y="406.23199"
+         id="text19152-04"><tspan
+           sodipodi:role="line"
+           id="tspan64721"
+           x="768.17603"
+           y="406.23199">LV A−</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+         x="767.81598"
+         y="438.39999"
+         id="text19152-89"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"
+           x="767.81598"
+           y="438.39999"
+           id="tspan44572-2-28">IRトップ</tspan></text>
+    </g>
+    <rect
+       style="opacity:0.995;fill:#d194af;fill-opacity:1;stroke-width:4;stroke-linecap:round;paint-order:stroke fill markers"
+       id="rect7770"
+       width="64"
+       height="2"
+       x="0"
+       y="800" />
+    <rect
+       style="opacity:0.995;fill:#54454c;fill-opacity:1;stroke:none;stroke-width:3.99999;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect7849"
+       width="64"
+       height="24"
+       x="96"
+       y="800" />
+  </g>
+</svg>
