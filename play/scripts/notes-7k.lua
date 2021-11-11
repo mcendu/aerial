@@ -144,7 +144,7 @@ return function(anchorX, anchorY, side)
         group = {
             {
                 id = "measure",
-                offset = 3, -- offset by value of lift
+                offsets = {3}, -- offset by value of lift
                 dst = {
                     { x = anchorX, y = anchorY, w = 460, h = 2 }
                 }
@@ -169,6 +169,7 @@ return function(anchorX, anchorY, side)
     c.destination = {
         {
             id = "judge-line",
+            offsets = {3},
             loop = 1000,
             dst = {
                 { time = 500, x = anchorX + 230, y = anchorY, w = 0, h = 24, acc = 2 },
