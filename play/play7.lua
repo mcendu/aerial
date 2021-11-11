@@ -51,6 +51,8 @@ local function main()
 
     s:loadComponent(skin_config.get_path("scripts/cover-sp.lua"), 70)
 
+    s:loadComponent(skin_config.get_path("scripts/judge.lua"), 290, 430)
+
     return s
 end
 
