@@ -26,145 +26,147 @@ return function(centerX, anchorY)
             { id = 4, path = "textures/judge/DSegment.png" }
         },
         image = {
-		    { id = "pgreat", src = 4, x = 0, y = 0, w = 227, h = 252, divy = 3, cycle = 120 },
-		    { id = "great", src = 4, x = 0, y = 252, w = 227, h = 168, divy = 2, cycle = 80 },
-		    { id = "good", src = 4, x = 0, y = 420, w = 227, h = 168, divy = 2, cycle = 80 },
-		    { id = "bad", src = 4, x = 227, y = 420, w = 227, h = 168, divy = 2, cycle = 80 },
-		    { id = "poor", src = 4, x = 454, y = 420, w = 227, h = 168, divy = 2, cycle = 80 }
+		    { id = "pgreat", src = 4, x = 0, y = 0, w = 227, h = 252, divy = 3, cycle = 100 },
+		    { id = "great", src = 4, x = 0, y = 252, w = 227, h = 168, divy = 2, cycle = 100 },
+		    { id = "good", src = 4, x = 0, y = 420, w = 227, h = 168, divy = 2, cycle = 100 },
+		    { id = "bad", src = 4, x = 227, y = 420, w = 227, h = 168, divy = 2, cycle = 100 },
+		    { id = "poor", src = 4, x = 454, y = 420, w = 227, h = 168, divy = 2, cycle = 100 }
         },
         value = {
-            { id = "combo-pg", src = 4, x = 227, y = 0, w = 550, h = 252, divx = 10, divy = 3, digit = 6, ref = 75, cycle = 120 },
-            { id = "combo-g", src = 4, x = 227, y = 252, w = 550, h = 168, divx = 10, divy = 2, digit = 6, ref = 75, cycle = 80 },
+            { id = "combo-pg", src = 4, x = 227, y = 0, w = 550, h = 252, divx = 10, divy = 3, digit = 6, ref = 75, cycle = 100 },
+            { id = "combo-g", src = 4, x = 227, y = 252, w = 550, h = 168, divx = 10, divy = 2, digit = 6, ref = 75, cycle = 100 },
         },
         judge = {
-            id = "nowjudge",
-            index = 0,
-            images = {
-                {
-                    id = "pgreat",
-                    loop = -1,
-                    timer = 46,
-                    offsets = {3, 32}, -- offset by lift and customized judge offset
-                    dst = {
-                        { time = 0, x = centerX, y = anchorY, w = 227, h = 84 },
-                        { time = displayTime }
+            {
+                id = "nowjudge",
+                index = 0,
+                images = {
+                    {
+                        id = "pgreat",
+                        loop = -1,
+                        timer = 46,
+                        offsets = {3, 32}, -- offset by lift and customized judge offset
+                        dst = {
+                            { time = 0, x = centerX - 114, y = anchorY, w = 227, h = 84 },
+                            { time = displayTime }
+                        }
+                    },
+                    {
+                        id = "great",
+                        loop = -1,
+                        timer = 46,
+                        offsets = {3, 32},
+                        dst = {
+                            { time = 0, x = centerX - 114, y = anchorY, w = 227, h = 84 },
+                            { time = displayTime }
+                        }
+                    },
+                    {
+                        id = "good",
+                        loop = -1,
+                        timer = 46,
+                        offsets = {3, 32},
+                        dst = {
+                            { time = 0, x = centerX - 114, y = anchorY, w = 227, h = 84 },
+                            { time = displayTime }
+                        }
+                    },
+                    {
+                        id = "bad",
+                        loop = -1,
+                        timer = 46,
+                        offsets = {3, 32},
+                        dst = {
+                            { time = 0, x = centerX - 114, y = anchorY, w = 227, h = 84 },
+                            { time = displayTime }
+                        }
+                    },
+                    {
+                        id = "poor",
+                        loop = -1,
+                        timer = 46,
+                        offsets = {3, 32},
+                        dst = {
+                            { time = 0, x = centerX - 114, y = anchorY, w = 227, h = 84 },
+                            { time = displayTime }
+                        }
+                    },
+                    {
+                        id = "poor",
+                        loop = -1,
+                        timer = 46,
+                        offsets = {3, 32},
+                        dst = {
+                            { time = 0, x = centerX - 114, y = anchorY, w = 227, h = 84 },
+                            { time = displayTime }
+                        }
                     }
                 },
-                {
-                    id = "great",
-                    loop = -1,
-                    timer = 46,
-                    offsets = {3, 32},
-                    dst = {
-                        { time = 0, x = centerX, y = anchorY, w = 227, h = 84 },
-                        { time = displayTime }
+                -- x and y for numbers are relative to the corresponding text
+                numbers = {
+                    {
+                        id = "combo-pg",
+                        loop = -1,
+                        timer = 46,
+                        offsets = {32},
+                        dst = {
+                            { time = 0, x = 237, y = 0, w = 55, h = 84 },
+                            { time = displayTime }
+                        }
+                    },
+                    {
+                        id = "combo-g",
+                        loop = -1,
+                        timer = 46,
+                        offsets = {32},
+                        dst = {
+                            { time = 0, x = 237, y = 0, w = 55, h = 84 },
+                            { time = displayTime }
+                        }
+                    },
+                    {
+                        id = "combo-g",
+                        loop = -1,
+                        timer = 46,
+                        offsets = {32},
+                        dst = {
+                            { time = 0, x = 237, y = 0, w = 55, h = 84 },
+                            { time = displayTime }
+                        }
+                    },
+                    {
+                        id = "combo-g",
+                        loop = -1,
+                        timer = 46,
+                        offsets = {32},
+                        dst = {
+                            { time = 0, x = 237, y = 0, w = 55, h = 84 },
+                            { time = displayTime }
+                        }
+                    },
+                    {
+                        id = "combo-g",
+                        loop = -1,
+                        timer = 46,
+                        offsets = {32},
+                        dst = {
+                            { time = 0, x = 237, y = 0, w = 55, h = 84 },
+                            { time = displayTime }
+                        }
+                    },
+                    {
+                        id = "combo-g",
+                        loop = -1,
+                        timer = 46,
+                        offsets = {32},
+                        dst = {
+                            { time = 0, x = 237, y = 0, w = 55, h = 84 },
+                            { time = displayTime }
+                        }
                     }
                 },
-                {
-                    id = "good",
-                    loop = -1,
-                    timer = 46,
-                    offsets = {3, 32},
-                    dst = {
-                        { time = 0, x = centerX, y = anchorY, w = 227, h = 84 },
-                        { time = displayTime }
-                    }
-                },
-                {
-                    id = "bad",
-                    loop = -1,
-                    timer = 46,
-                    offsets = {3, 32},
-                    dst = {
-                        { time = 0, x = centerX, y = anchorY, w = 227, h = 84 },
-                        { time = displayTime }
-                    }
-                },
-                {
-                    id = "poor",
-                    loop = -1,
-                    timer = 46,
-                    offsets = {3, 32},
-                    dst = {
-                        { time = 0, x = centerX, y = anchorY, w = 227, h = 84 },
-                        { time = displayTime }
-                    }
-                },
-                {
-                    id = "poor",
-                    loop = -1,
-                    timer = 46,
-                    offsets = {3, 32},
-                    dst = {
-                        { time = 0, x = centerX, y = anchorY, w = 227, h = 84 },
-                        { time = displayTime }
-                    }
-                }
-            },
-            -- x and y for numbers are relative to the corresponding text
-            numbers = {
-                {
-                    id = "combo-pg",
-                    loop = -1,
-                    timer = 46,
-                    offsets = {32},
-                    dst = {
-                        { time = 0, x = 237, y = 0, w = 55, h = 84 },
-                        { time = displayTime }
-                    }
-                },
-                {
-                    id = "combo-g",
-                    loop = -1,
-                    timer = 46,
-                    offsets = {32},
-                    dst = {
-                        { time = 0, x = 237, y = 0, w = 55, h = 84 },
-                        { time = displayTime }
-                    }
-                },
-                {
-                    id = "combo-g",
-                    loop = -1,
-                    timer = 46,
-                    offsets = {32},
-                    dst = {
-                        { time = 0, x = 237, y = 0, w = 55, h = 84 },
-                        { time = displayTime }
-                    }
-                },
-                {
-                    id = "combo-g",
-                    loop = -1,
-                    timer = 46,
-                    offsets = {32},
-                    dst = {
-                        { time = 0, x = 237, y = 0, w = 55, h = 84 },
-                        { time = displayTime }
-                    }
-                },
-                {
-                    id = "combo-g",
-                    loop = -1,
-                    timer = 46,
-                    offsets = {32},
-                    dst = {
-                        { time = 0, x = 237, y = 0, w = 55, h = 84 },
-                        { time = displayTime }
-                    }
-                },
-                {
-                    id = "combo-g",
-                    loop = -1,
-                    timer = 46,
-                    offsets = {32},
-                    dst = {
-                        { time = 0, x = 237, y = 0, w = 55, h = 84 },
-                        { time = displayTime }
-                    }
-                }
-            },
-            shift = true
+                shift = true
+            }
         },
         destination = {
             { id = "nowjudge" }
