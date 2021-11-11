@@ -17,6 +17,11 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ]]
 
+--[[
+    NOTE: This file is probably never going to be used. Once all
+    portions appear elsewhere, this would be deleted.
+]]
+
 local source = {
     { id = 0, path = "textures/frame-sp.png" },
     { id = 1, path = "textures/note/default.png" }
