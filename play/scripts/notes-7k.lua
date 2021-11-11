@@ -144,6 +144,7 @@ return function(anchorX, anchorY, side)
         group = {
             {
                 id = "measure",
+                offset = 3, -- offset by value of lift
                 dst = {
                     { x = anchorX, y = anchorY, w = 460, h = 2 }
                 }
