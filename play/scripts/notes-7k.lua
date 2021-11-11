@@ -168,8 +168,10 @@ return function(anchorX, anchorY, side)
     c.destination = {
         {
             id = "judge-line",
+            loop = 1000,
             dst = {
-                { x = anchorX, y = anchorY, w = 460, h = 24 }
+                { time = 500, x = anchorX + 230, y = anchorY, w = 0, h = 24, acc = 2 },
+                { time = 1000, x = anchorX, w = 460 }
             }
         },
         {
