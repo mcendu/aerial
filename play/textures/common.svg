@@ -27,20 +27,21 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="1"
-     inkscape:cx="236.5"
-     inkscape:cy="563"
-     inkscape:window-width="1284"
-     inkscape:window-height="1032"
-     inkscape:window-x="496"
-     inkscape:window-y="14"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
+     inkscape:cx="104.5"
+     inkscape:cy="159.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g93913-4"
      inkscape:snap-bbox="true"
      inkscape:snap-nodes="false"
      inkscape:bbox-paths="false"
      inkscape:snap-bbox-edge-midpoints="false"
      inkscape:bbox-nodes="true"
-     inkscape:snap-text-baseline="false">
+     inkscape:snap-text-baseline="false"
+     inkscape:snap-grids="false">
     <inkscape:grid
        type="xygrid"
        id="grid1431"
@@ -97,7 +98,7 @@
     <g
        id="g39651"
        style="display:inline;fill:#ffffff;fill-opacity:1"
-       transform="translate(-3200,-1280)">
+       transform="translate(-3202,-1282)">
       <text
          xml:space="preserve"
          style="font-size:48px;line-height:1.25;font-family:Orbitron;-inkscape-font-specification:Orbitron;fill-opacity:1"
@@ -440,6 +441,16 @@
            id="tspan88124"
            x="3365"
            y="1426">+</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill:#ffffff;fill-opacity:1"
+         x="3350"
+         y="1426"
+         id="text78802-9"><tspan
+           sodipodi:role="line"
+           id="tspan78800-0"
+           x="3350"
+           y="1426">0</tspan></text>
     </g>
     <g
        id="g93913-4"
@@ -454,6 +465,16 @@
            sodipodi:role="line"
            id="tspan78800-4"
            x="3200"
+           y="1426">0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-numeric:tabular-nums;fill:#d19494;fill-opacity:1"
+         x="3350"
+         y="1426"
+         id="text78802-3-0"><tspan
+           sodipodi:role="line"
+           id="tspan78800-4-0"
+           x="3350"
            y="1426">0</tspan></text>
       <text
          xml:space="preserve"
