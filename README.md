@@ -27,6 +27,6 @@ Graphics are additionaly distributed under [Creative Commons
 Attribution-ShareAlike, version 4.0.][BY-SA]
 
 Portions of the Lua code of this skin are licensed under other
-licenses. See the individual files for details.
+terms. See the individual files for details.
 
 [BY-SA]: https://creativecommons.org/licenses/by-sa/4.0/
