@@ -24,7 +24,7 @@ local SIDE_2P = 1
 
 local header = {
     type = Skin.SKINTYPE_7K,
-    name = "aerial -- 7K play 1.0.0",
+    name = "aerial -- 7K play ALPHA",
     w = 1920,
     h = 1080,
     loadend = 3000,
