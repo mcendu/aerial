@@ -47,7 +47,7 @@ return function(centerX, anchorY)
                         timer = 46,
                         offsets = {3, 32}, -- offset by lift and customized judge offset
                         dst = {
-                            { time = 0, x = centerX - 114, y = anchorY, w = 227, h = 84 },
+                            { time = 0, x = centerX - 107, y = anchorY, w = 227, h = 84 },
                             { time = displayTime }
                         }
                     },
@@ -57,7 +57,7 @@ return function(centerX, anchorY)
                         timer = 46,
                         offsets = {3, 32},
                         dst = {
-                            { time = 0, x = centerX - 114, y = anchorY, w = 227, h = 84 },
+                            { time = 0, x = centerX - 107, y = anchorY, w = 227, h = 84 },
                             { time = displayTime }
                         }
                     },
@@ -67,7 +67,7 @@ return function(centerX, anchorY)
                         timer = 46,
                         offsets = {3, 32},
                         dst = {
-                            { time = 0, x = centerX - 114, y = anchorY, w = 227, h = 84 },
+                            { time = 0, x = centerX - 107, y = anchorY, w = 227, h = 84 },
                             { time = displayTime }
                         }
                     },
@@ -77,7 +77,7 @@ return function(centerX, anchorY)
                         timer = 46,
                         offsets = {3, 32},
                         dst = {
-                            { time = 0, x = centerX - 114, y = anchorY, w = 227, h = 84 },
+                            { time = 0, x = centerX - 107, y = anchorY, w = 227, h = 84 },
                             { time = displayTime }
                         }
                     },
@@ -87,7 +87,7 @@ return function(centerX, anchorY)
                         timer = 46,
                         offsets = {3, 32},
                         dst = {
-                            { time = 0, x = centerX - 114, y = anchorY, w = 227, h = 84 },
+                            { time = 0, x = centerX - 107, y = anchorY, w = 227, h = 84 },
                             { time = displayTime }
                         }
                     },
@@ -97,7 +97,7 @@ return function(centerX, anchorY)
                         timer = 46,
                         offsets = {3, 32},
                         dst = {
-                            { time = 0, x = centerX - 114, y = anchorY, w = 227, h = 84 },
+                            { time = 0, x = centerX - 107, y = anchorY, w = 227, h = 84 },
                             { time = displayTime }
                         }
                     }
@@ -140,7 +140,7 @@ return function(centerX, anchorY)
                         timer = 46,
                         offsets = {32},
                         dst = {
-                            { time = 0, x = 237, y = 0, w = 55, h = 84 },
+                            { time = 0, x = 0, y = 0, w = 55, h = 84 },
                             { time = displayTime }
                         }
                     },
@@ -150,7 +150,7 @@ return function(centerX, anchorY)
                         timer = 46,
                         offsets = {32},
                         dst = {
-                            { time = 0, x = 237, y = 0, w = 55, h = 84 },
+                            { time = 0, x = 0, y = 0, w = 55, h = 84 },
                             { time = displayTime }
                         }
                     },
@@ -160,7 +160,7 @@ return function(centerX, anchorY)
                         timer = 46,
                         offsets = {32},
                         dst = {
-                            { time = 0, x = 237, y = 0, w = 55, h = 84 },
+                            { time = 0, x = 0, y = 0, w = 55, h = 84 },
                             { time = displayTime }
                         }
                     }
