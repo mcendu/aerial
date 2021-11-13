@@ -50,7 +50,7 @@ local function main()
 
     s:loadComponent(skin_config.get_path("scripts/background.lua"))
 
-    s:loadComponent(skin_config.get_path("scripts/stageframe-sp.lua"), SIDE_1P)
+    s:loadComponent(skin_config.get_path("scripts/stageframe-sp.lua"), 10, SIDE_1P)
 
     s:loadComponent(skin_config.get_path("scripts/notes-textures.lua"))
     s:loadComponent(skin_config.get_path("scripts/notes-7k.lua"), 70, 370, SIDE_1P)

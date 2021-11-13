@@ -17,23 +17,20 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ]]
 
-return function(side)
+return function(originX, side)
     local c = {}
 
     local player_prefix
     local progress_border_x = 0
     local progress_tborder_x = 0
-    local stage_x = 0
 
     if side == 0 then
         player_prefix = "1p-"
-        stage_x = 10
-        progress_border_x = stage_x + 38
+        progress_border_x = originX + 38
         progress_tborder_x = progress_border_x - 30
     else
         player_prefix = "2p-"
-        stage_x = 1920 - 586
-        progress_border_x = stage_x + 535
+        progress_border_x = originX + 535
         progress_tborder_x = progress_border_x + 1
     end
 
@@ -52,7 +49,7 @@ return function(side)
             blend = 1,
             loop = 333,
             dst = {
-                { time = 0, x = stage_x, y = 1080, w = 576, h = 960, acc = 2 },
+                { time = 0, x = originX, y = 1080, w = 576, h = 960, acc = 2 },
                 { time = 333, y = 120 }
             }
         },
