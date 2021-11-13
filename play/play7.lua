@@ -44,6 +44,10 @@ local function main()
         { id = 1, path = "textures/common.png" }
     }
 
+    s.image = {
+        { id = "decimal-point", src = 1, x = 288, y = 64, w = 6, h = 32 }
+    }
+
     s:loadComponent(skin_config.get_path("scripts/stageframe-sp.lua"), SIDE_1P)
 
     s:loadComponent(skin_config.get_path("scripts/notes-textures.lua"))
@@ -52,6 +56,8 @@ local function main()
     s:loadComponent(skin_config.get_path("scripts/cover-sp.lua"), 70)
 
     s:loadComponent(skin_config.get_path("scripts/judge.lua"), 290, 490)
+
+    s:loadComponent(skin_config.get_path("scripts/score.lua"))
 
     return s
 end
