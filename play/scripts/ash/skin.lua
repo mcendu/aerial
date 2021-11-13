@@ -45,6 +45,9 @@ local Skin = {
     `Skin.prototype.method`.
 ]]
 Skin.prototype = {
+    --[[
+        Copies the contents of a component to the skin hierarchy.
+    ]]
     mergeComponent = function(self, component)
         for property, contents in pairs(component) do
             if (self[property] == nil) then
