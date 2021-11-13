@@ -26,7 +26,7 @@ return function()
             { id = "label-speed", src = 1, x = 0, y = 384, w = 80, h = 32 }
         },
         value = {
-            { id = "exscore", src = 1, x = 0, y = 0, w = 440, h = 40, divx = 11, digit = 4, ref = 101 },
+            { id = "exscore", src = 1, x = 0, y = 0, w = 400, h = 40, divx = 10, digit = 5, ref = 101 },
             { id = "speed", src = 1, x = 0, y = 64, w = 240, h = 32, divx = 10, digit = 1, ref = 310 },
             { id = "speed-decimal", src = 1, x = 0, y = 64, w = 240, h = 32, divx = 10, digit = 2, ref = 311 },
         },
@@ -41,7 +41,7 @@ return function()
             {
                 id = "exscore",
                 dst = {
-                    { x = originScore + 40, y = 30, w = 40, h = 40 }
+                    { x = originScore, y = 30, w = 40, h = 40 }
                 }
             },
             -- Speed (Hi-speed)
