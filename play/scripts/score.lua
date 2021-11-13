@@ -22,8 +22,12 @@ return function()
 
     return {
         image = {
+            -- Background and decorations
+            { id = "1p-score-bg", src = 0, x = 1152, y = 768, w = 640, h = 128 },
+            { id = "2p-score-bg", src = 0, x = 1152, y = 896, w = 640, h = 128 },
+            -- Labels
             { id = "label-exscore", src = 1, x = 0, y = 352, w = 112, h = 32 },
-            { id = "label-speed", src = 1, x = 0, y = 384, w = 80, h = 32 }
+            { id = "label-speed", src = 1, x = 0, y = 384, w = 80, h = 32 },
         },
         value = {
             { id = "exscore", src = 1, x = 0, y = 0, w = 400, h = 40, divx = 10, digit = 5, ref = 101 },
@@ -31,42 +35,79 @@ return function()
             { id = "speed-decimal", src = 1, x = 0, y = 64, w = 240, h = 32, divx = 10, digit = 2, ref = 311 },
         },
         destination = {
+            -- Background
+            {
+                id = "1p-score-bg",
+                blend = 1,
+                loop = 800,
+                dst = {
+                    { time = 500, x = 0, y = 0, w = 640, h = 128, a = 0 },
+                    { time = 800, a = 255 }
+                }
+            },
+            {
+                id = "2p-score-bg",
+                blend = 1,
+                loop = 800,
+                dst = {
+                    { time = 500, x = 1280, y = 0, w = 640, h = 128, a = 0 },
+                    { time = 800, a = 255 }
+                }
+            },
             -- Score (EX score)
             {
                 id = "label-exscore",
+                blend = 1,
+                loop = 1000,
                 dst = {
-                    { x = originScore, y = 70, w = 112, h = 32 }
+                    { time = 800, x = originScore, y = 70, w = 112, h = 32, a = 0 },
+                    { time = 1000, a = 255 }
                 }
             },
             {
                 id = "exscore",
+                blend = 1,
+                loop = 1000,
                 dst = {
-                    { x = originScore, y = 30, w = 40, h = 40 }
+                    { time = 800, x = originScore, y = 30, w = 40, h = 40, a = 0 },
+                    { time = 1000, a = 255 }
                 }
             },
             -- Speed (Hi-speed)
             {
                 id = "label-speed",
+                blend = 1,
+                loop = 1000,
                 dst = {
-                    { x = originScore + 240, y = 70, w = 80, h = 32 }
+                    { time = 800, x = originScore + 240, y = 70, w = 80, h = 32, a = 0 },
+                    { time = 1000, a = 255 }
                 }
             },
             {
                 id = "speed",
+                blend = 1,
+                loop = 1000,
                 dst = {
-                    { x = originScore + 280, y = 30, w = 24, h = 32 }
+                    { time = 800, x = originScore + 280, y = 30, w = 24, h = 32, a = 0 },
+                    { time = 1000, a = 255 }
                 }
             },
             {
                 id = "decimal-point",
+                blend = 1,
+                loop = 1000,
                 dst = {
-                    { x = originScore + 304, y = 30, w = 6, h = 32 }
+                    { time = 800, x = originScore + 304, y = 30, w = 6, h = 32, a = 0 },
+                    { time = 1000, a = 255 }
                 }
             },
             {
                 id = "speed-decimal",
+                blend = 1,
+                loop = 1000,
                 dst = {
-                    { x = originScore + 310, y = 30, w = 24, h = 32 }
+                    { time = 800, x = originScore + 310, y = 30, w = 24, h = 32, a = 0 },
+                    { time = 1000, a = 255 }
                 }
             }
         }
