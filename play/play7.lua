@@ -48,6 +48,8 @@ local function main()
         { id = "decimal-point", src = 1, x = 288, y = 64, w = 6, h = 32 }
     }
 
+    s:loadComponent(skin_config.get_path("scripts/background.lua"))
+
     s:loadComponent(skin_config.get_path("scripts/stageframe-sp.lua"), SIDE_1P)
 
     s:loadComponent(skin_config.get_path("scripts/notes-textures.lua"))
