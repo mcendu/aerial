@@ -45,23 +45,7 @@ local Skin = {
     `Skin.prototype.method`.
 ]]
 Skin.prototype = {
-    --[[
-        Loads and executes a function that returns a table from another
-        Lua script, and merges the table (component) into the skin.
-    ]]
-    loadComponent = function(self, path, ...)
-        -- Load and run the component constructor
-        local component_args = {...}
-        local status, component = pcall(function ()
-            local c = dofile(path)
-            return c(table.unpack(component_args));
-        end)
-
-        if (not (status and component)) then
-            return
-        end
-
-        -- Merge the component into the skin
+    mergeComponent = function(self, component)
         for property, contents in pairs(component) do
             if (self[property] == nil) then
                 self[property] = {}
@@ -78,6 +62,23 @@ Skin.prototype = {
                     self[property][index] = value
                 end
             end
+        end
+    end,
+
+    --[[
+        Loads and executes a function that returns a table from another
+        Lua script, and merges the table (component) into the skin.
+    ]]
+    loadComponent = function(self, path, ...)
+        -- Load and run the component constructor
+        local component_args = {...}
+        local status, component = pcall(function ()
+            local c = dofile(path)
+            return c(table.unpack(component_args));
+        end)
+
+        if (status and component) then
+            self:mergeComponent(component)
         end
     end
 }
