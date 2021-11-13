@@ -67,12 +67,14 @@ Skin.prototype = {
                 self[property] = {}
             end
 
+            -- Insert contents with numerical indices to the end
+            for index, value in ipairs(contents) do
+                table.insert(self[property], value)
+            end
+
+            -- Contents with non-numeric index are merged into self
             for index, value in pairs(contents) do
-                -- Insert contents with numerical indices to the end
-                if type(index) == "number" then
-                    table.insert(self[property], value)
-                -- Contents with non-numeric index are merged into self
-                else
+                if type(index) ~= "number" then
                     self[property][index] = value
                 end
             end
