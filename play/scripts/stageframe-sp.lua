@@ -27,14 +27,14 @@ return function(side)
 
     if side == 0 then
         player_prefix = "1p-"
-        progress_border_x = 48
-        progress_tborder_x = progress_border_x - 30
         stage_x = 10
+        progress_border_x = stage_x + 38
+        progress_tborder_x = progress_border_x - 30
     else
         player_prefix = "2p-"
-        progress_border_x = 1920 - 3 - 48
+        stage_x = 1920 - 586
+        progress_border_x = stage_x + 535
         progress_tborder_x = progress_border_x + 1
-        stage_x = 1920 - 10 - 576
     end
 
     c.image = {
