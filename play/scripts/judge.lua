@@ -19,6 +19,7 @@
 
 return function(centerX, anchorY)
     local displayTime = 500
+    local anchorX = centerX - 117
 
     return {
         -- Use ModernChic judge textures
@@ -47,7 +48,7 @@ return function(centerX, anchorY)
                         timer = 46,
                         offsets = {3, 32}, -- offset by lift and customized judge offset
                         dst = {
-                            { time = 0, x = centerX - 107, y = anchorY, w = 227, h = 84 },
+                            { time = 0, x = anchorX, y = anchorY, w = 227, h = 84 },
                             { time = displayTime }
                         }
                     },
@@ -57,7 +58,7 @@ return function(centerX, anchorY)
                         timer = 46,
                         offsets = {3, 32},
                         dst = {
-                            { time = 0, x = centerX - 107, y = anchorY, w = 227, h = 84 },
+                            { time = 0, x = anchorX, y = anchorY, w = 227, h = 84 },
                             { time = displayTime }
                         }
                     },
@@ -67,7 +68,7 @@ return function(centerX, anchorY)
                         timer = 46,
                         offsets = {3, 32},
                         dst = {
-                            { time = 0, x = centerX - 107, y = anchorY, w = 227, h = 84 },
+                            { time = 0, x = anchorX, y = anchorY, w = 227, h = 84 },
                             { time = displayTime }
                         }
                     },
@@ -77,7 +78,7 @@ return function(centerX, anchorY)
                         timer = 46,
                         offsets = {3, 32},
                         dst = {
-                            { time = 0, x = centerX - 107, y = anchorY, w = 227, h = 84 },
+                            { time = 0, x = anchorX, y = anchorY, w = 227, h = 84 },
                             { time = displayTime }
                         }
                     },
@@ -87,7 +88,7 @@ return function(centerX, anchorY)
                         timer = 46,
                         offsets = {3, 32},
                         dst = {
-                            { time = 0, x = centerX - 107, y = anchorY, w = 227, h = 84 },
+                            { time = 0, x = anchorX, y = anchorY, w = 227, h = 84 },
                             { time = displayTime }
                         }
                     },
@@ -97,7 +98,7 @@ return function(centerX, anchorY)
                         timer = 46,
                         offsets = {3, 32},
                         dst = {
-                            { time = 0, x = centerX - 107, y = anchorY, w = 227, h = 84 },
+                            { time = 0, x = anchorX, y = anchorY, w = 227, h = 84 },
                             { time = displayTime }
                         }
                     }
