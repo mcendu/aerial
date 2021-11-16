@@ -48,18 +48,18 @@ local function main()
         { id = "decimal-point", src = 1, x = 288, y = 64, w = 6, h = 32 }
     }
 
-    s:loadComponent(skin_config.get_path("scripts/background.lua"))
+    s:addComponent(require("scripts.background")())
 
-    s:loadComponent(skin_config.get_path("scripts/stageframe-sp.lua"), 10, SIDE_1P)
+    s:addComponent(require("scripts.stageframe-sp")(10, SIDE_1P))
 
-    s:loadComponent(skin_config.get_path("scripts/notes-textures.lua"))
-    s:loadComponent(skin_config.get_path("scripts/notes-7k.lua"), 70, 370, SIDE_1P)
+    s:addComponent(require("scripts.notes-textures")())
+    s:addComponent(require("scripts.notes-7k")(70, 370, SIDE_1P))
 
-    s:loadComponent(skin_config.get_path("scripts/cover-sp.lua"), 70)
+    s:addComponent(require("scripts.cover-sp")(70))
 
-    s:loadComponent(skin_config.get_path("scripts/judge.lua"), 290, 490)
+    s:addComponent(require("scripts.judge")(290, 490))
 
-    s:loadComponent(skin_config.get_path("scripts/score.lua"))
+    s:addComponent(require("scripts.score")())
 
     return s
 end
