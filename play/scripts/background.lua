@@ -17,23 +17,21 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ]]
 
-return function()
-    return {
-        source = {
-            { id = "background", path = "textures/bg/_default.png" }
-        },
-        image = {
-            { id = "background", src = "background", x = 0, y = 0, w = -1, h = -1}
-        },
-        destination = {
-            {
-                id = "background",
-                loop = 1000,
-                dst = {
-                    { time = 500, x = 0, y = 0, w = 1920, h = 1080, r = 0, g = 0, b = 0 },
-                    { time = 1000, r = 128, g = 128, b = 128 }
-                }
+return {
+    source = {
+        { id = "background", path = "textures/bg/_default.png" }
+    },
+    image = {
+        { id = "background", src = "background", x = 0, y = 0, w = -1, h = -1}
+    },
+    destination = {
+        {
+            id = "background",
+            loop = 1000,
+            dst = {
+                { time = 500, x = 0, y = 0, w = 1920, h = 1080, r = 0, g = 0, b = 0 },
+                { time = 1000, r = 128, g = 128, b = 128 }
             }
         }
     }
-end
+}

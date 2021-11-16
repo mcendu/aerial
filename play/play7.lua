@@ -48,11 +48,11 @@ local function main()
         { id = "decimal-point", src = 1, x = 288, y = 64, w = 6, h = 32 }
     }
 
-    s:addComponent(require("scripts.background")())
+    s:addComponent(require("scripts.background"))
 
     s:addComponent(require("scripts.stageframe-sp")(10, SIDE_1P))
 
-    s:addComponent(require("scripts.notes-textures")())
+    s:addComponent(require("scripts.notes-textures"))
     s:addComponent(require("scripts.notes-7k")(70, 370, SIDE_1P))
 
     s:addComponent(require("scripts.cover-sp")(70))
