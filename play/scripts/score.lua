@@ -34,7 +34,7 @@ return function()
         value = {
             { id = "exscore", src = 1, x = 0, y = 0, w = 400, h = 40, divx = 10, digit = 5, ref = 101 },
             { id = "speed", src = 1, x = 0, y = 64, w = 240, h = 32, divx = 10, digit = 1, ref = 310 },
-            { id = "speed-decimal", src = 1, x = 0, y = 64, w = 240, h = 32, divx = 10, digit = 2, ref = 311 },
+            { id = "speed-decimal", src = 1, x = 0, y = 64, w = 264, h = 32, divx = 11, digit = 2, ref = 311 },
         },
         destination = {
             -- Background
