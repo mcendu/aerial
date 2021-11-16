@@ -81,7 +81,7 @@ Skin.prototype = {
         end)
 
         if (status and component) then
-            self:mergeComponent(component)
+            self:addComponent(component)
         end
     end
 }
