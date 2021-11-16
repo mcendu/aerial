@@ -28,6 +28,8 @@ return function()
             -- Labels
             { id = "label-exscore", src = 1, x = 0, y = 352, w = 112, h = 32 },
             { id = "label-speed", src = 1, x = 0, y = 384, w = 80, h = 32 },
+            -- Decimal points
+            { id = "speed-point", src = 1, x = 288, y = 64, w = 6, h = 32 }
         },
         value = {
             { id = "exscore", src = 1, x = 0, y = 0, w = 400, h = 40, divx = 10, digit = 5, ref = 101 },
@@ -93,7 +95,7 @@ return function()
                 }
             },
             {
-                id = "decimal-point",
+                id = "speed-point",
                 blend = 1,
                 loop = 1000,
                 dst = {

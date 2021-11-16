@@ -44,10 +44,6 @@ local function main()
         { id = 1, path = "textures/common.png" }
     }
 
-    s.image = {
-        { id = "decimal-point", src = 1, x = 288, y = 64, w = 6, h = 32 }
-    }
-
     s:addComponent(require("scripts.background"))
 
     s:addComponent(require("scripts.stage-sp")(SIDE_1P))
