@@ -17,8 +17,14 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ]]
 
-return function()
-    local originScore = 40
+return function(side)
+    local originScore = 0
+
+    if (side == 0) then
+        originScore = 40
+    else
+        originScore = 1520
+    end
 
     return {
         image = {

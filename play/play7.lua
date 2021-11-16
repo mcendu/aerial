@@ -48,7 +48,7 @@ local function main()
 
     s:addComponent(require("scripts.stage-sp")(SIDE_1P))
 
-    s:addComponent(require("scripts.score")())
+    s:addComponent(require("scripts.score")(SIDE_1P))
 
     return s
 end
