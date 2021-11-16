@@ -38,7 +38,7 @@ return function(originX, side)
         { id = "1p-stage", src = 0, x = 0, y = 0, w = 576, h = 960 },
         { id = "2p-stage", src = 0, x = 576, y = 0, w = 576, h = 960 },
 
-        { id = "progress-border", src = 0, x = 1792, y = 128, w = 32, h = 608 },
+        { id = "progress-border", src = 0, x = 1792, y = 128, w = 32, h = 594 },
         { id = "1p-progress-tborder", src = 0, x = 1824, y = 128, w = 32, h = 64 },
         { id = "2p-progress-tborder", src = 0, x = 1824, y = 192, w = 32, h = 64 },
     }
@@ -56,19 +56,19 @@ return function(originX, side)
         {
             id = "progress-border",
             blend = 1,
-            loop = 416,
+            loop = 667,
             dst = {
-                { time = 333, x = progress_border_x, y = 374, w = 32, h = 608, a = 0 },
-                { time = 416, a = 255 }
+                { time = 333, x = progress_border_x, y = 388, w = 32, h = 0 },
+                { time = 667, h = 594 }
             }
         },
         {
             id = player_prefix .. "progress-tborder",
             blend = 1,
-            loop = 500,
+            loop = 750,
             dst = {
-                { time = 416, x = progress_tborder_x, y = 983, w = 32, h = 64, a = 0 },
-                { time = 500, a = 255 }
+                { time = 667, x = progress_tborder_x, y = 983, w = 32, h = 64, a = 0 },
+                { time = 750, a = 255 }
             }
         }
     }
