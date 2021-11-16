@@ -48,7 +48,7 @@ Skin.prototype = {
     --[[
         Copies the contents of a component to the skin hierarchy.
     ]]
-    mergeComponent = function(self, component)
+    addComponent = function(self, component)
         for property, contents in pairs(component) do
             if (self[property] == nil) then
                 self[property] = {}
