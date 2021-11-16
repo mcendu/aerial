@@ -25,6 +25,10 @@ return function()
             -- Background and decorations
             { id = "1p-score-bg", src = 0, x = 1152, y = 768, w = 640, h = 128 },
             { id = "2p-score-bg", src = 0, x = 1152, y = 896, w = 640, h = 128 },
+            { id = "1p-score-uborder", src = 0, x = 1920, y = 128, w = 403, h = 3 },
+            { id = "2p-score-uborder", src = 0, x = 1920, y = 128, w = 403, h = 3 },
+            { id = "1p-score-rborder", src = 0, x = 1920, y = 192, w = 256, h = 122 },
+            { id = "2p-score-lborder", src = 0, x = 1920, y = 192, w = 256, h = 122 },
             -- Labels
             { id = "label-exscore", src = 1, x = 0, y = 352, w = 112, h = 32 },
             { id = "label-speed", src = 1, x = 0, y = 384, w = 80, h = 32 },
@@ -41,19 +45,53 @@ return function()
             {
                 id = "1p-score-bg",
                 blend = 1,
-                loop = 800,
+                loop = 500,
                 dst = {
-                    { time = 500, x = 0, y = 0, w = 640, h = 128, a = 0 },
-                    { time = 800, a = 255 }
+                    { time = 333, x = 0, y = 0, w = 640, h = 128, a = 0 },
+                    { time = 500, a = 255 }
                 }
             },
             {
                 id = "2p-score-bg",
                 blend = 1,
-                loop = 800,
+                loop = 500,
                 dst = {
-                    { time = 500, x = 1280, y = 0, w = 640, h = 128, a = 0 },
-                    { time = 800, a = 255 }
+                    { time = 333, x = 1280, y = 0, w = 640, h = 128, a = 0 },
+                    { time = 500, a = 255 }
+                }
+            },
+            {
+                id = "1p-score-uborder",
+                loop = 167,
+                dst = {
+                    { time = 0, x = -2, y = 128, w = 0, h = 3, },
+                    { time = 167, w = 403 }
+                }
+            },
+            {
+                id = "2p-score-uborder",
+                loop = 167,
+                dst = {
+                    { time = 0, x = 1922, y = 128, w = 0, h = 3, },
+                    { time = 167, w = -403 }
+                }
+            },
+            {
+                id = "1p-score-rborder",
+                loop = 333,
+                blend = 1,
+                dst = {
+                    { time = 167, x = 403, y = 8, w = 256, h = 122, a = 0 },
+                    { time = 333, a = 255 }
+                }
+            },
+            {
+                id = "2p-score-lborder",
+                loop = 333,
+                blend = 1,
+                dst = {
+                    { time = 167, x = 1517, y = 8, w = -256, h = 122, a = 0 },
+                    { time = 333, a = 255 }
                 }
             },
             -- Score (EX score)
