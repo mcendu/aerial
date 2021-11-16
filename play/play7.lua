@@ -50,14 +50,7 @@ local function main()
 
     s:addComponent(require("scripts.background"))
 
-    s:addComponent(require("scripts.stageframe-sp")(10, SIDE_1P))
-
-    s:addComponent(require("scripts.notes-textures"))
-    s:addComponent(require("scripts.notes-7k")(70, 370, SIDE_1P))
-
-    s:addComponent(require("scripts.cover-sp")(70))
-
-    s:addComponent(require("scripts.judge")(290, 490))
+    s:addComponent(require("scripts.stage-sp")(SIDE_1P))
 
     s:addComponent(require("scripts.score")())
 
