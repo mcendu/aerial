@@ -17,7 +17,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ]]
 
-local Component = require("scripts.ash.skin")
+local Component = require("ash.skin")
 
 return function(side)
     local stage_origin = 0
@@ -33,11 +33,11 @@ return function(side)
 
     local c = Component:new()
 
-    c:addComponent(require("scripts.stageframe-sp")(stage_origin, side))
-    c:addComponent(require("scripts.notes-textures"))
-    c:addComponent(require("scripts.notes-7k")(notes_origin, 370, side))
-    c:addComponent(require("scripts.cover-sp")(notes_origin))
-    c:addComponent(require("scripts.judge")(notes_origin + 230, 490))
+    c:addComponent(require("components.stageframe-sp")(stage_origin, side))
+    c:addComponent(require("components.notes-textures"))
+    c:addComponent(require("components.notes-7k")(notes_origin, 370, side))
+    c:addComponent(require("components.cover-sp")(notes_origin))
+    c:addComponent(require("components.judge")(notes_origin + 230, 490))
 
     return c
 end

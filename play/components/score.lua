@@ -17,7 +17,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ]]
 
-local Component = require("scripts.ash.skin")
+local Component = require("ash.skin")
 
 local background = {
     image = {

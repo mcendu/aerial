@@ -17,7 +17,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ]]
 
-local Skin = require("scripts.ash.skin")
+local Skin = require("ash.skin")
 
 local SIDE_1P = 0
 local SIDE_2P = 1
@@ -44,11 +44,11 @@ local function main()
         { id = 1, path = "textures/common.png" }
     }
 
-    s:addComponent(require("scripts.background"))
+    s:addComponent(require("components.background"))
 
-    s:addComponent(require("scripts.stage-sp")(SIDE_1P))
+    s:addComponent(require("components.stage-sp")(SIDE_1P))
 
-    s:addComponent(require("scripts.score")(SIDE_1P))
+    s:addComponent(require("components.score")(SIDE_1P))
 
     return s
 end
