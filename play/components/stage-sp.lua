@@ -28,7 +28,7 @@ return function(side)
         notes_origin = stage_origin + 60
     else
         stage_origin = 1920 - 586
-        notes_origin = stage_origin + 10
+        notes_origin = stage_origin + 56
     end
 
     local c = Component:new()
