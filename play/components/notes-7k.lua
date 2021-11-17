@@ -122,8 +122,8 @@ return function(anchorX, anchorY, side)
         -- Long notes
         lnend = img_lntail,
         lnstart = img_lnhead,
-        lnbody = img_ln,
-        lnactive = img_lna,
+        lnbody = img_lna,   -- Due to a coding error by exch or lavalse,
+        lnactive = img_ln,  -- lnactive does the exact opposite of its name
         -- Landmine
         mine = img_mine,
         -- Hell charge notes (a special way to handle long notes)
