@@ -19,8 +19,7 @@
 
 local Skin = require("ash.skin")
 
-local SIDE_1P = 0
-local SIDE_2P = 1
+local options = require("config.options-sp")
 
 local header = {
     type = Skin.SKINTYPE_7K,
@@ -33,7 +32,7 @@ local header = {
     input = 1000,
     close = 1000,
     fadeout = 1000,
-    property = {},
+    property = options.property
 }
 
 local function main()
@@ -46,9 +45,9 @@ local function main()
 
     s:addComponent(require("components.background"))
 
-    s:addComponent(require("components.stage-sp")(SIDE_1P))
+    s:addComponent(require("components.stage-sp")(options.playerSide()))
 
-    s:addComponent(require("components.score")(SIDE_1P))
+    s:addComponent(require("components.score")(options.playerSide()))
 
     return s
 end
