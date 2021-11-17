@@ -20,7 +20,7 @@
 return function(anchorX)
     return {
         source = {
-            { id = 3, path = "textures/lanecover/_default.png" }
+            { id = 3, path = "textures/lanecover/*.png" }
         },
         slider = {
             { id = "lanecover", src = 3, x = 0, y = 0, w = 460, h = 710, angle = 2, range = 710, type = 4 }

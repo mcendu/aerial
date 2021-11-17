@@ -19,7 +19,7 @@
 
 return {
     source = {
-        { id = 2, path = "textures/note/_default.png" }
+        { id = 2, path = "textures/note/*.png" }
     },
     image = {
         -- Normal note

@@ -32,7 +32,8 @@ local header = {
     input = 1000,
     close = 1000,
     fadeout = 1000,
-    property = options.property
+    property = options.property,
+    filepath = options.filepath
 }
 
 local function main()

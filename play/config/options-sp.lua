@@ -29,6 +29,12 @@ return {
             }
         }
     },
+    filepath = {
+        { name = "BACKGROUND", path = "textures/bg/*.png" },
+        { name = "NOTE", path = "textures/note/*.png" },
+        { name = "JUDGE FONT", path = "textures/judge/*.png" },
+        { name = "HIDDEN+ COVER", path = "textures/lanecover/*.png" },
+    },
     playerSide = function()
         if skin_config.option["PLAYER SIDE"] == 920 then
             return SIDE_1P

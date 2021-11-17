@@ -145,10 +145,10 @@ return function(anchorX, anchorY, side)
             {
                 id = "measure",
                 offsets = {3}, -- offset by value of lift
-                loop = 750,
+                loop = 250,
                 dst = {
-                    { time = 500, x = anchorX + 230, y = anchorY, w = 0, h = 2, acc = 2 },
-                    { time = 750, x = anchorX, w = 460 }
+                    { time = 0, x = anchorX, y = anchorY, w = 460, h = 2, a = 0 },
+                    { time = 250, a = 255 }
                 }
             }
         },

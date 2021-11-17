@@ -19,7 +19,7 @@
 
 return {
     source = {
-        { id = "background", path = "textures/bg/_default.png" }
+        { id = "background", path = "textures/bg/*.png" }
     },
     image = {
         { id = "background", src = "background", x = 0, y = 0, w = -1, h = -1}

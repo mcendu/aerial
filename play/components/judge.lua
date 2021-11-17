@@ -24,7 +24,7 @@ return function(centerX, anchorY)
     return {
         -- Use ModernChic judge textures
         source = {
-            { id = 4, path = "textures/judge/DSegment.png" }
+            { id = 4, path = "textures/judge/*.png" }
         },
         image = {
 		    { id = "pgreat", src = 4, x = 0, y = 0, w = 227, h = 252, divy = 3, cycle = 100 },
