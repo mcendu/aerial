@@ -23,10 +23,6 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this skin.  If not, see <https://www.gnu.org/licenses/>.
 
-Graphics are additionaly distributed under [Creative Commons
-Attribution-ShareAlike, version 4.0.][BY-SA]
+## Credits
 
-Portions of the Lua code of this skin are licensed under other
-terms. See the individual files for details.
-
-[BY-SA]: https://creativecommons.org/licenses/by-sa/4.0/
+- Thanks **mattun and keshikan** for the judge text sprites.
