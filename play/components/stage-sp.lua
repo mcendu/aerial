@@ -22,13 +22,16 @@ local Component = require("ash.skin")
 return function(side)
     local stage_origin = 0
     local notes_origin = 0
+    local gauge_origin = 0
 
     if side == 0 then
         stage_origin = 10
         notes_origin = stage_origin + 60
+        gauge_origin = stage_origin + 35
     else
         stage_origin = 1920 - 586
         notes_origin = stage_origin + 56
+        gauge_origin = stage_origin + 541
     end
 
     local c = Component:new()
@@ -38,6 +41,7 @@ return function(side)
     c:addComponent(require("components.notes-7k")(notes_origin, 370, side))
     c:addComponent(require("components.cover-sp")(notes_origin))
     c:addComponent(require("components.judge")(notes_origin + 230, 490))
+    c:addComponent(require("components.gauge")(side, gauge_origin, 170))
 
     return c
 end
