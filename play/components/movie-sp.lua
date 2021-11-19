@@ -34,7 +34,6 @@ return function(centerX, centerY)
             },
             {
                 id = "movie",
-                op = {41},
                 timer = 41,
                 blend = 2,
                 dst = {
