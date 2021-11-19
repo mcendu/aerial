@@ -47,10 +47,10 @@ return {
         { id = "ln-white", src = 2, x = 256, y = 128, w = 60, h = 32 },
         { id = "ln-black", src = 2, x = 384, y = 128, w = 40, h = 32 },
         -- LN active
-        { id = "lna-scratch", src = 2, x = 0, y = 160, w = 100, h = 1, divy = 96, cycle = 800 },
-        { id = "lna-autoscratch", src = 2, x = 128, y = 160, w = 100, h = 1, divy = 96, cycle = 800 },
-        { id = "lna-white", src = 2, x = 256, y = 160, w = 60, h = 1, divy = 96, cycle = 800 },
-        { id = "lna-black", src = 2, x = 384, y = 160, w = 40, h = 1, divy = 96, cycle = 800 },
+        { id = "lna-scratch", src = 2, x = 0, y = 160, w = 100, h = 96, divy = 96, cycle = 800 },
+        { id = "lna-autoscratch", src = 2, x = 128, y = 160, w = 100, h = 96, divy = 96, cycle = 800 },
+        { id = "lna-white", src = 2, x = 256, y = 160, w = 60, h = 96, divy = 96, cycle = 800 },
+        { id = "lna-black", src = 2, x = 384, y = 160, w = 40, h = 96, divy = 96, cycle = 800 },
         -- Measure line
         { id = "measure", src = 1, x = 0, y = 800, w = 64, h = 2 },
         -- Judge reference
