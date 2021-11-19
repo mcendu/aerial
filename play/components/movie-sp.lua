@@ -28,7 +28,7 @@ return function(centerX, centerY)
                 id = "movie-frame",
                 loop = 333,
                 dst = {
-                    { time = 0, x = centerX - 352, y = centerY, w = 704, h = 0, acc = 0 },
+                    { time = 0, x = centerX - 352, y = centerY, w = 704, h = 0, acc = 2 },
                     { time = 333, y = centerY - 256, h = 512 }
                 }
             },
