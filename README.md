@@ -2,9 +2,9 @@
 
 Aerial (stylized as *aerial*) is a skin for beatoraja.
 
-This skin is a heavy work in progress, and has not yet achieved the
-state of being usable. Please help by sending pull requests if you can
-and are interested.
+This skin is a heavy work in progress. While it is currently usable,
+its featureset is far from complete. Please help by sending pull
+requests if you can and if you are interested.
 
 ## License
 
