@@ -159,7 +159,7 @@ local function scoreDisplay(side)
                 blend = 1,
                 loop = 1000,
                 dst = {
-                    { time = 800, x = originScore + 310, y = 30, w = 24, h = 32, a = 0 },
+                    { time = 800, x = originScore + 313, y = 30, w = 24, h = 32, a = 0 },
                     { time = 1000, a = 255 }
                 }
             }
