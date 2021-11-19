@@ -22,12 +22,13 @@ return {
         { id = "background", path = "textures/bg/*.png" }
     },
     image = {
-        { id = "background", src = "background", x = 0, y = 0, w = -1, h = -1}
+        { id = "background", src = "background", x = 0, y = 0, w = -1, h = -1 }
     },
     destination = {
         {
             id = "background",
             loop = 1000,
+            filter = 1,
             dst = {
                 { time = 500, x = 0, y = 0, w = 1920, h = 1080, r = 0, g = 0, b = 0 },
                 { time = 1000, r = 128, g = 128, b = 128 }
