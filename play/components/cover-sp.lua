@@ -30,8 +30,7 @@ return function(anchorX)
                 id = "lanecover",
                 loop = 1500,
                 dst = {
-                    { time = 0, x = anchorX, y = 1080 + 710, w = 460, h = 710, acc = 2 },
-                    { time = 1000 },
+                    { time = 1000, x = anchorX, y = 1080 + 710, w = 460, h = 710, acc = 2 },
                     { time = 1500, y = 1080 }
                 }
             }
