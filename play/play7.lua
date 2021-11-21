@@ -30,7 +30,7 @@ local header = {
     playstart = 1000,
     scene = 3600000,
     input = 1000,
-    close = 1000,
+    close = 2000,
     fadeout = 1000,
     property = options.property,
     filepath = options.filepath
@@ -47,10 +47,11 @@ local function main()
     s:addComponent(require("components.background"))
 
     s:addComponent(require("components.stage-sp")(options.playerSide()))
-
     s:addComponent(require("components.movie-sp")(960, 660))
-
     s:addComponent(require("components.score")(options.playerSide()))
+
+    s:addComponent(require("components.fadeout"))
+    s:addComponent(require("components.fail"))
 
     return s
 end
