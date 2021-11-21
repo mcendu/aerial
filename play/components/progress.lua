@@ -20,17 +20,39 @@
 return function(anchorX, anchorY)
     return {
         slider = {
-            { id = "progress", src = 1, x = 192, y = 800, w = 12, h = 32, angle = 2, range = 598, type = 6 }
+            { id = "song-progress", src = 1, x = 192, y = 800, w = 12, h = 32, angle = 2, range = 598, type = 6 }
+        },
+        graph = {
+            { id = "load-progress", src = 1, x = 192, y = 800, w = 12, h = 32, type = 102 }
         },
         destination = {
             {
-                id = "progress",
+                id = "load-progress",
+                op = {80},
+                loop = 1000,
+                dst = {
+                    { time = 667, x = anchorX, y = anchorY, w = 12, h = 0, acc = 2 },
+                    { time = 1000, h = 630 }
+                }
+            },
+            {
+                id = "load-progress",
+                timer = 40,
+                loop = -1,
+                blend = 1,
+                dst = {
+                    { time = 0, x = anchorX, y = anchorY, w = 12, h = 630, a = 255, acc = 2 },
+                    { time = 1000, y = anchorY + 598, h = 32, a = 128 },
+                }
+            },
+            {
+                id = "song-progress",
                 timer = 140,
                 op = {81},
-                blend = 2,
+                blend = 1,
                 dst = {
-                    { time = 0, x = anchorX, y = anchorY + 598, w = 12, h = 32, a = 255 },
-                    { time = 1000, a = 96 }
+                    { time = 0, x = anchorX, y = anchorY + 598, w = 12, h = 32, a = 255, acc = 2 },
+                    { time = 1000, a = 128 }
                 }
             }
         }
