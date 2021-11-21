@@ -27,8 +27,8 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="1"
-     inkscape:cx="291.5"
-     inkscape:cy="195.5"
+     inkscape:cx="516.5"
+     inkscape:cy="574.5"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
@@ -41,7 +41,7 @@
      inkscape:snap-bbox-edge-midpoints="false"
      inkscape:bbox-nodes="true"
      inkscape:snap-text-baseline="false"
-     inkscape:snap-grids="false">
+     inkscape:snap-grids="true">
     <inkscape:grid
        type="xygrid"
        id="grid1431"
@@ -335,6 +335,13 @@
            x="3440"
            y="1374"
            id="tspan48738-09">0</tspan></text>
+      <rect
+         style="display:inline;opacity:0.995;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.349148;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+         id="rect6518"
+         width="12"
+         height="32"
+         x="3392"
+         y="2080" />
     </g>
     <!-- Exo 2 x=0 y=128 w=15x12 h=20x2 -->
     <g

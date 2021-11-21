@@ -23,11 +23,13 @@ return function(side)
     local stage_origin = 0
     local notes_origin = 0
     local gauge_origin = 0
+    local progress_origin = 0
 
     if side == 0 then
         stage_origin = 10
         notes_origin = stage_origin + 60
         gauge_origin = stage_origin + 35
+        progress_origin = stage_origin + 15
     else
         stage_origin = 1920 - 586
         notes_origin = stage_origin + 56
@@ -39,6 +41,8 @@ return function(side)
     c:addComponent(require("components.stageframe-sp")(stage_origin, side))
     c:addComponent(require("components.notes-textures"))
     c:addComponent(require("components.notes-7k")(notes_origin, 370, side))
+    c:addComponent(require("components.progress")(progress_origin, 370))
+
     c:addComponent(require("components.cover-sp")(notes_origin))
     c:addComponent(require("components.judge")(notes_origin + 230, 490))
     c:addComponent(require("components.gauge")(side, gauge_origin, 170))
