@@ -29,10 +29,23 @@ return function(anchorX, anchorY)
             {
                 id = "load-progress",
                 op = {80},
-                loop = 1000,
+                loop = -1,
                 dst = {
                     { time = 667, x = anchorX, y = anchorY, w = 12, h = 0, acc = 2 },
                     { time = 1000, h = 630 }
+                }
+            },
+            {
+                id = "load-progress",
+                op = {80},
+                loop = 1000,
+                blend = 1,
+                dst = {
+                    { time = 1000, x = anchorX, y = anchorY, w = 12, h = 630, a = 255, acc = 1 },
+                    { time = 1250, a = 192, acc = 2 },
+                    { time = 1500, a = 128, acc = 1 },
+                    { time = 1750, a = 192, acc = 2 },
+                    { time = 2000, a = 255 }
                 }
             },
             {
