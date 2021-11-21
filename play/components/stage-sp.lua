@@ -34,6 +34,7 @@ return function(side)
         stage_origin = 1920 - 586
         notes_origin = stage_origin + 56
         gauge_origin = stage_origin + 541
+        progress_origin = stage_origin + 549
     end
 
     local c = Component:new()
