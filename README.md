@@ -23,6 +23,10 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this skin.  If not, see <https://www.gnu.org/licenses/>.
 
+This software uses M+ fonts by the M+ Font Project, licensed under
+[SIL Open Font License, version 1.1.](OFL.txt)
+
 ## Credits
 
 - Thanks **mattun and keshikan** for the judge text sprites.
+- Thanks **the M+ Font Project** for Japanese fonts.
