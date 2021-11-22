@@ -17,21 +17,13 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ]]
 
-return function(centerX, centerY)
+local Component = require("ash.skin")
+
+
+local function movie(centerX, centerY)
     return {
         bga = { id = "movie" },
-        image = {
-            { id = "movie-frame", src = 0, x = 1184, y = 1472, w = 704, h = 512 },
-        },
         destination = {
-            {
-                id = "movie-frame",
-                loop = 667,
-                dst = {
-                    { time = 333, x = centerX - 352, y = centerY, w = 704, h = 0, acc = 2 },
-                    { time = 667, y = centerY - 256, h = 512 }
-                }
-            },
             {
                 id = "movie",
                 blend = 2,
@@ -43,4 +35,76 @@ return function(centerX, centerY)
             }
         }
     }
+end
+
+local function loadtimeText(id, centerX, anchorY, height)
+    return {
+        destination = {
+            {
+                id = id,
+                op = {80},
+                loop = 1000,
+                blend = 2,
+                dst = {
+                    { time = 667, x = centerX, y = anchorY, w = 640, h = height, a = 0 },
+                    { time = 1000, a = 255 }
+                }
+            },
+            {
+                id = id,
+                timer = 40,
+                loop = -1,
+                blend = 2,
+                dst = {
+                    { time = 0, x = centerX, y = anchorY, w = 640, h = height, a = 255 },
+                    { time = 333, a = 0 }
+                }
+            }
+        }
+    }
+end
+
+local function loadtimeTitle(centerX, centerY)
+    local c = Component:new {
+        text = {
+            { id = "load_title", font = "ja", size = 48, align = 1, ref = 10 },
+            { id = "load_subtitle", font = "ja", size = 24, align = 1, ref = 11 },
+            { id = "load_genre", font = "ja", size = 24, align = 1, ref = 13 },
+            { id = "load_artist", font = "ja", size = 24, align = 1, ref = 14 },
+            { id = "load_subartist", font = "ja", size = 24, align = 1, ref = 15 },
+        }
+    }
+
+    c:addComponent(loadtimeText("load_genre", centerX, centerY + 150, 24))
+
+    c:addComponent(loadtimeText("load_title", centerX, centerY + 30, 48))
+    c:addComponent(loadtimeText("load_subtitle", centerX, centerY, 24))
+
+    c:addComponent(loadtimeText("load_artist", centerX, centerY - 150, 24))
+    c:addComponent(loadtimeText("load_subartist", centerX, centerY - 180, 24))
+
+    return c
+end
+
+return function(centerX, centerY)
+    local c = Component:new {
+        image = {
+            { id = "movie-frame", src = 0, x = 1184, y = 1472, w = 704, h = 512 },
+        },
+        destination = {
+            {
+                id = "movie-frame",
+                loop = 667,
+                dst = {
+                    { time = 333, x = centerX - 352, y = centerY, w = 704, h = 0, acc = 2 },
+                    { time = 667, y = centerY - 256, h = 512 }
+                }
+            }
+        }
+    }
+
+    c:addComponent(movie(centerX, centerY))
+    c:addComponent(loadtimeTitle(centerX, centerY))
+
+    return c
 end
