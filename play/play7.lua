@@ -44,6 +44,11 @@ local function main()
         { id = 1, path = "textures/common.png" }
     }
 
+    s.font = {
+        { id = "ja", path = "fonts/Mplus1-Regular.ttf" },
+        { id = "ja-bold", path = "fonts/Mplus1-Bold.ttf" },
+    }
+
     s:addComponent(require("components.background"))
 
     s:addComponent(require("components.stage-sp")(options.playerSide()))
