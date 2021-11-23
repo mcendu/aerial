@@ -34,6 +34,7 @@ return {
         { name = "NOTE", path = "textures/note/*.png" },
         { name = "JUDGE FONT", path = "textures/judge/*.png" },
         { name = "HIDDEN+ COVER", path = "textures/lanecover/*.png" },
+        { name = "LIFT COVER", path = "textures/lift/*.png" },
         { name = "GAUGE", path = "textures/gauge/*.png" }
     },
     playerSide = function()

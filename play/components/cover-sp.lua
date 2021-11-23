@@ -20,18 +20,41 @@
 return function(anchorX)
     return {
         source = {
-            { id = 3, path = "textures/lanecover/*.png" }
+            { id = "cover", path = "textures/lanecover/*.png" },
+            { id = "lift", path = "textures/lift/*.png"}
         },
         slider = {
-            { id = "lanecover", src = 3, x = 0, y = 0, w = 460, h = 710, angle = 2, range = 710, type = 4 }
+            { id = "lanecover", src = "cover", x = 0, y = 0, w = 460, h = 710, angle = 2, range = 710, type = 4 }
+        },
+        liftCover = {
+            { id = "lift", src = "lift", x = 0, y = 0, w = 460, h = 710, disapearLine = 370 }
+        },
+        hiddenCover = {
+            { id = "hiddencover", src = "lift", x = 0, y = 0, w = 460, h = 710, disapearLine = 370 }
         },
         destination = {
             {
                 id = "lanecover",
-                loop = 1500,
+                loop = 1000,
                 dst = {
-                    { time = 1000, x = anchorX, y = 1080 + 710, w = 460, h = 710, acc = 2 },
-                    { time = 1500, y = 1080 }
+                    { time = 500, x = anchorX, y = 1080 + 710, w = 460, h = 710, acc = 2 },
+                    { time = 1000, y = 1080 }
+                }
+            },
+            {
+                id = "lift",
+                loop = 1000,
+                dst = {
+                    { time = 500, x = anchorX, y = 370 - 710 * 2, w = 460, h = 710, acc = 2 },
+                    { time = 1000, y = 370 - 710 }
+                }
+            },
+            {
+                id = "hiddencover",
+                loop = 1000,
+                dst = {
+                    { time = 500, x = anchorX, y = 370 - 710 * 2, w = 460, h = 710, acc = 2 },
+                    { time = 1000, y = 370 - 710 }
                 }
             }
         }
