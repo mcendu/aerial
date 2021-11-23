@@ -28,5 +28,4 @@ This software uses Source Han Sans from Adobe, licensed under
 
 ## Credits
 
-- Thanks **mattun and keshikan** for the judge text sprites.
 - Thanks **Adobe** for Japanese fonts.
