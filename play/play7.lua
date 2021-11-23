@@ -45,8 +45,8 @@ local function main()
     }
 
     s.font = {
-        { id = "ja", path = "fonts/Mplus1-Regular.ttf" },
-        { id = "ja-bold", path = "fonts/Mplus1-Bold.ttf" },
+        { id = "ja", path = "fonts/SourceHanSansJP-Regular.otf" },
+        { id = "ja-bold", path = "fonts/SourceHanSansJP-Bold.otf" },
     }
 
     s:addComponent(require("components.background"))
