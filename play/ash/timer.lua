@@ -39,7 +39,7 @@ local playerNames = {"1p", "2p"}
 local function AddKeyTimers(timers, action, initialIndex)
     for i = 0, 19, 1 do
         local k = keyNames[i % 10 + 1]
-        local p = playerNames[i // 10 + 1]
+        local p = playerNames[math.floor(i / 10) + 1]
         local timerName = k .. action .. p;
         timers[timerName] = initialIndex + i
     end
