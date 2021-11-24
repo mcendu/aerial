@@ -17,6 +17,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ]]
 
+local Timer = require("ash.timer")
+
 return {
     destination = {
         -- fail animation
@@ -24,7 +26,7 @@ return {
             id = "-111",
             blend = 1,
             loop = 1000,
-            timer = 3,
+            timer = Timer.Fail,
             dst = {
                 { time = 0, x = 0, y = 0, w = 1920, h = 1080, a = 0, r = 192, g = 0, b = 0 },
                 { time = 333, a = 255, acc = 2 },

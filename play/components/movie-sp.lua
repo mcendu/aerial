@@ -18,7 +18,7 @@
 ]]
 
 local Component = require("ash.skin")
-
+local Timer = require("ash.timer")
 
 local function movie(centerX, centerY)
     return {
@@ -52,7 +52,7 @@ local function loadtimeText(id, centerX, anchorY, height)
             },
             {
                 id = id,
-                timer = 40,
+                timer = Timer.Ready,
                 loop = -1,
                 blend = 2,
                 dst = {

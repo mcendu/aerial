@@ -17,13 +17,15 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ]]
 
+local Timer = require("ash.timer")
+
 return {
     destination = {
         {
             id = "-110",
             blend = 1,
             loop = 1000,
-            timer = 2,
+            timer = Timer.Fadeout,
             dst = {
                 { time = 0, x = 0, y = 0, w = 1920, h = 1080, a = 0 },
                 { time = 1000, a = 255 }

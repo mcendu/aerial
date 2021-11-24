@@ -17,6 +17,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ]]
 
+local Timer = require("ash.timer")
+
 return function(anchorX, anchorY)
     return {
         slider = {
@@ -50,7 +52,7 @@ return function(anchorX, anchorY)
             },
             {
                 id = "load-progress",
-                timer = 40,
+                timer = Timer.Ready,
                 loop = -1,
                 blend = 1,
                 dst = {
@@ -60,7 +62,7 @@ return function(anchorX, anchorY)
             },
             {
                 id = "song-progress",
-                timer = 140,
+                timer = Timer.Rhythm,
                 op = {81},
                 blend = 1,
                 dst = {

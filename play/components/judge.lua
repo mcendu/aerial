@@ -17,6 +17,8 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ]]
 
+local Timer = require("ash.timer")
+
 return function(centerX, anchorY)
     local displayTime = 500
     local anchorX = centerX - 117
@@ -45,7 +47,7 @@ return function(centerX, anchorY)
                     {
                         id = "pgreat",
                         loop = -1,
-                        timer = 46,
+                        timer = Timer.Judge1p,
                         offsets = {3, 32}, -- offset by lift and customized judge offset
                         dst = {
                             { time = 0, x = anchorX, y = anchorY, w = 227, h = 84 },
@@ -55,7 +57,7 @@ return function(centerX, anchorY)
                     {
                         id = "great",
                         loop = -1,
-                        timer = 46,
+                        timer = Timer.Judge1p,
                         offsets = {3, 32},
                         dst = {
                             { time = 0, x = anchorX, y = anchorY, w = 227, h = 84 },
@@ -65,7 +67,7 @@ return function(centerX, anchorY)
                     {
                         id = "good",
                         loop = -1,
-                        timer = 46,
+                        timer = Timer.Judge1p,
                         offsets = {3, 32},
                         dst = {
                             { time = 0, x = anchorX, y = anchorY, w = 227, h = 84 },
@@ -75,7 +77,7 @@ return function(centerX, anchorY)
                     {
                         id = "bad",
                         loop = -1,
-                        timer = 46,
+                        timer = Timer.Judge1p,
                         offsets = {3, 32},
                         dst = {
                             { time = 0, x = anchorX, y = anchorY, w = 227, h = 84 },
@@ -85,7 +87,7 @@ return function(centerX, anchorY)
                     {
                         id = "poor",
                         loop = -1,
-                        timer = 46,
+                        timer = Timer.Judge1p,
                         offsets = {3, 32},
                         dst = {
                             { time = 0, x = anchorX, y = anchorY, w = 227, h = 84 },
@@ -95,7 +97,7 @@ return function(centerX, anchorY)
                     {
                         id = "poor",
                         loop = -1,
-                        timer = 46,
+                        timer = Timer.Judge1p,
                         offsets = {3, 32},
                         dst = {
                             { time = 0, x = anchorX, y = anchorY, w = 227, h = 84 },
@@ -108,7 +110,7 @@ return function(centerX, anchorY)
                     {
                         id = "combo-pg",
                         loop = -1,
-                        timer = 46,
+                        timer = Timer.Judge1p,
                         offsets = {32},
                         dst = {
                             { time = 0, x = 237, y = 0, w = 55, h = 84 },
@@ -118,7 +120,7 @@ return function(centerX, anchorY)
                     {
                         id = "combo-g",
                         loop = -1,
-                        timer = 46,
+                        timer = Timer.Judge1p,
                         offsets = {32},
                         dst = {
                             { time = 0, x = 237, y = 0, w = 55, h = 84 },
@@ -128,7 +130,7 @@ return function(centerX, anchorY)
                     {
                         id = "combo-g",
                         loop = -1,
-                        timer = 46,
+                        timer = Timer.Judge1p,
                         offsets = {32},
                         dst = {
                             { time = 0, x = 237, y = 0, w = 55, h = 84 },
@@ -138,7 +140,7 @@ return function(centerX, anchorY)
                     {
                         id = "combo-g",
                         loop = -1,
-                        timer = 46,
+                        timer = Timer.Judge1p,
                         offsets = {32},
                         dst = {
                             { time = 0, x = 0, y = 0, w = 55, h = 84 },
@@ -148,7 +150,7 @@ return function(centerX, anchorY)
                     {
                         id = "combo-g",
                         loop = -1,
-                        timer = 46,
+                        timer = Timer.Judge1p,
                         offsets = {32},
                         dst = {
                             { time = 0, x = 0, y = 0, w = 55, h = 84 },
@@ -158,7 +160,7 @@ return function(centerX, anchorY)
                     {
                         id = "combo-g",
                         loop = -1,
-                        timer = 46,
+                        timer = Timer.Judge1p,
                         offsets = {32},
                         dst = {
                             { time = 0, x = 0, y = 0, w = 55, h = 84 },
