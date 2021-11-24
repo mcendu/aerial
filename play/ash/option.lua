@@ -1,5 +1,6 @@
 --[[
-    Helpers for defining configuration options for skins.
+    Helpers for defining configuration options of beatoraja skins.
+    Part of Aerial Skin Helpers.
     Copyright (C) 2021 McEndu.
 
     This program is free software; you can redistribute it and/or
