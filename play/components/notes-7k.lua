@@ -56,6 +56,7 @@ return function(anchorX, anchorY, side)
         }
     }
 
+    c:addComponent(require("components.light-sp")(anchorX, anchorY, relativeX, layout))
     c:addComponent(require("components.notes")(anchorX, anchorY, relativeX, layout))
 
     return c
