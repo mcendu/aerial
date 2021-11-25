@@ -18,9 +18,6 @@
 ]]
 
 return function(anchorX, anchorY, side)
-    -- Technically, vertical anchor for note area is pixels from the
-    -- bottom of the screen. Here calculations are used to make anchorY
-    -- relative to the top.
 
     -- Textures for notes on each column.
     local img_note = {
