@@ -59,6 +59,7 @@ local function draw(anchorX, anchorY, relativeX, layout, scratchOn, scratchOff)
         table.insert(c.destination, {
             id = sprite,
             timer = timerOn,
+            offsets = {3},
             loop = 100,
             dst = {
                 {
@@ -77,6 +78,7 @@ local function draw(anchorX, anchorY, relativeX, layout, scratchOn, scratchOff)
         table.insert(c.destination, {
             id = sprite,
             timer = timerOff,
+            offsets = {3},
             loop = -1,
             dst = {
                 {
