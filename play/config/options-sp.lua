@@ -24,23 +24,36 @@ return {
     property = {
         {
             name = "PLAYER SIDE", item = {
-                { name = "LEFT", op = 920 },
-                { name = "RIGHT", op = 921 }
+                { name = "LEFT", op = 900 },
+                { name = "RIGHT", op = 901 }
+            }
+        },
+        {
+            name = "TARGET DIFF", item = {
+                { name = "HIDE", op = 902 },
+                { name = "SHOW", op = 903 }
+            }
+        },
+        {
+            name = "JUDGE TIMING", item = {
+                { name = "HIDE", op = 904 },
+                { name = "SHOW", op = 905 }
             }
         }
     },
     filepath = {
         { name = "BACKGROUND", path = "textures/bg/*.png" },
         { name = "NOTE", path = "textures/note/*.png" },
+        { name = "LIGHTING", path = "textures/light/*.png" },
         { name = "JUDGE FONT", path = "textures/judge/*.png" },
         { name = "LANE COVER", path = "textures/lanecover/*.png" },
         { name = "LIFT COVER", path = "textures/lift/*.png" },
         { name = "GAUGE", path = "textures/gauge/*.png" }
     },
     playerSide = function()
-        if skin_config.option["PLAYER SIDE"] == 920 then
+        if skin_config.option["PLAYER SIDE"] == 900 then
             return SIDE_1P
-        elseif skin_config.option["PLAYER SIDE"] == 921 then
+        elseif skin_config.option["PLAYER SIDE"] == 901 then
             return SIDE_2P
         end
     end
