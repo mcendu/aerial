@@ -89,7 +89,7 @@ local function draw(anchorX, anchorY, relativeX, layout, scratchOn, scratchOff)
                     h = lightHeight
                 },
                 {
-                    time = 100,
+                    time = 67,
                     x = anchorX + relativeX[i] + width[col] / 2,
                     w = 0
                 }

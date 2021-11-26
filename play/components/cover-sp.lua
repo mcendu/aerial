@@ -83,10 +83,10 @@ return function(anchorX, anchorY)
             },
             {
                 id = "lift",
-                loop = 1000,
+                loop = 750,
                 dst = {
-                    { time = 500, x = anchorX, y = anchorY - height * 2, w = 460, h = height, acc = 2 },
-                    { time = 1000, y = anchorY - height }
+                    { time = 333, x = anchorX, y = anchorY - height * 2, w = 460, h = height, acc = 2 },
+                    { time = 750, y = anchorY - height }
                 }
             },
             {
