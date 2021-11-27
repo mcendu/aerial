@@ -29,13 +29,13 @@ return {
             }
         },
         {
-            name = "TARGET DIFF", item = {
+            name = "TARGET DIFFERENCE", item = {
                 { name = "HIDE", op = 902 },
                 { name = "SHOW", op = 903 }
             }
         },
         {
-            name = "JUDGE TIMING", item = {
+            name = "EARLY/LATE DISPLAY", item = {
                 { name = "HIDE", op = 904 },
                 { name = "SHOW", op = 905 }
             }

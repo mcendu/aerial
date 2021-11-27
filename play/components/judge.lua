@@ -33,7 +33,10 @@ return function(centerX, anchorY)
 		    { id = "great", src = 4, x = 0, y = 252, w = 227, h = 168, divy = 2, cycle = 100 },
 		    { id = "good", src = 4, x = 0, y = 420, w = 227, h = 168, divy = 2, cycle = 100 },
 		    { id = "bad", src = 4, x = 227, y = 420, w = 227, h = 168, divy = 2, cycle = 100 },
-		    { id = "poor", src = 4, x = 454, y = 420, w = 227, h = 168, divy = 2, cycle = 100 }
+		    { id = "poor", src = 4, x = 454, y = 420, w = 227, h = 168, divy = 2, cycle = 100 },
+
+            { id = "early", src = 1, x = 192, y = 864, w = 80, h = 20 },
+            { id = "late", src = 1, x = 192, y = 884, w = 80, h = 20 }
         },
         value = {
             { id = "combo-pg", src = 4, x = 227, y = 0, w = 550, h = 252, divx = 10, divy = 3, digit = 6, ref = 75, cycle = 100 },
@@ -182,10 +185,32 @@ return function(centerX, anchorY)
                 op = {903},
                 offsets = {3, 32},
                 dst = {
-                    { time = 0, x = centerX - 120, y = anchorY + 92, w = 15, h = 20 },
+                    { time = 0, x = centerX - 135, y = anchorY + 92, w = 15, h = 20 },
                     { time = displayTime }
                 }
-            }
+            },
+            {
+                id = "early",
+                loop = -1,
+                timer = Timer.Judge1p,
+                op = {1242, 905},
+                offsets = {3, 32},
+                dst = {
+                    { time = 0, x = centerX + 60, y = anchorY + 92, w = 80, h = 20 },
+                    { time = displayTime }
+                }
+            },
+            {
+                id = "late",
+                loop = -1,
+                timer = Timer.Judge1p,
+                op = {1243, 905},
+                offsets = {3, 32},
+                dst = {
+                    { time = 0, x = centerX + 60, y = anchorY + 92, w = 80, h = 20 },
+                    { time = displayTime }
+                }
+            },
         }
     }
 end
