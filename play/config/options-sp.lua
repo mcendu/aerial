@@ -37,7 +37,8 @@ return {
         {
             name = "EARLY/LATE", item = {
                 { name = "HIDE", op = 904 },
-                { name = "SHOW", op = 905 }
+                { name = "EARLY/LATE", op = 905 },
+                { name = "TIME DIFF", op = 906 }
             }
         }
     },

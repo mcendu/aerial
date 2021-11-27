@@ -42,7 +42,8 @@ return function(centerX, anchorY)
             { id = "combo-pg", src = 4, x = 227, y = 0, w = 550, h = 252, divx = 10, divy = 3, digit = 6, ref = 75, cycle = 100 },
             { id = "combo-g", src = 4, x = 227, y = 252, w = 550, h = 168, divx = 10, divy = 2, digit = 6, ref = 75, cycle = 100 },
 
-            { id = "target-diff", src = 1, x = 0, y = 128, w = 180, h = 40, divx = 12, divy = 2, digit = 5, zeropadding = 1, ref = 108 }
+            { id = "target-diff", src = 1, x = 0, y = 128, w = 180, h = 40, divx = 12, divy = 2, digit = 5, zeropadding = 1, ref = 108 },
+            { id = "timing-diff", src = 1, x = 0, y = 864, w = 180, h = 40, divx = 12, divy = 2, digit = 4, align = 1, ref = 525 }
         },
         judge = {
             {
@@ -211,6 +212,17 @@ return function(centerX, anchorY)
                     { time = displayTime }
                 }
             },
+            {
+                id = "timing-diff",
+                loop = -1,
+                timer = Timer.Judge1p,
+                op = {906},
+                offsets = {3, 32},
+                dst = {
+                    { time = 0, x = centerX + 60, y = anchorY + 92, w = 15, h = 20 },
+                    { time = displayTime }
+                }
+            }
         }
     }
 end
