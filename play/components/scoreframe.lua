@@ -24,7 +24,11 @@ return {
         { id = "1p-score-uborder", src = 0, x = 1920, y = 128, w = 403, h = 3 },
         { id = "2p-score-uborder", src = 0, x = 1920, y = 128, w = 403, h = 3 },
         { id = "1p-score-rborder", src = 0, x = 1920, y = 192, w = 256, h = 122 },
-        { id = "2p-score-lborder", src = 0, x = 1920, y = 192, w = 256, h = 122 }
+        { id = "2p-score-lborder", src = 0, x = 1920, y = 192, w = 256, h = 122 },
+
+        { id = "bpm-frame", src = 0, x = 1152, y = 1024, w = 640, h = 128 },
+        { id = "bpm-frame-uborder", src = 0, x = 1920, y = 352, w = 256, h = 3},
+        { id = "bpm-frame-rborder", src = 0, x = 2176, y = 384, w = 192, h = 128},
     },
     destination = {
         {
@@ -78,6 +82,42 @@ return {
                 { time = 167, x = 1517, y = 8, w = -256, h = 122, a = 0 },
                 { time = 333, a = 255 }
             }
-        }
+        },
+        {
+            id = "bpm-frame",
+            blend = 1,
+            loop = 833,
+            dst = {
+                { time = 667, x = 640, y = 0, w = 640, h = 128, a = 0 },
+                { time = 833, a = 255 }
+            }
+        },
+        {
+            id = "bpm-frame-uborder",
+            blend = 1,
+            loop = 500,
+            dst = {
+                { time = 333, x = 960, y = 129, w = 0, h = 3, acc = 2 },
+                { time = 500, x = 960 - 128, w = 256 }
+            }
+        },
+        {
+            id = "bpm-frame-rborder",
+            blend = 1,
+            loop = 667,
+            dst = {
+                { time = 500, x = 849, y = 2, w = -192, h = 128, a = 0, acc = 2 },
+                { time = 667, a = 255 }
+            }
+        },
+        {
+            id = "bpm-frame-rborder",
+            blend = 1,
+            loop = 667,
+            dst = {
+                { time = 500, x = 1071, y = 2, w = 192, h = 128, a = 0, acc = 2 },
+                { time = 667, a = 255 }
+            }
+        },
     }
 }
