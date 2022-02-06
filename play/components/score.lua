@@ -172,6 +172,7 @@ return function(side)
 
     c:addComponent(background)
     c:addComponent(scoreDisplay(side))
+    c:addComponent(require("components.tempo"))
 
     return c
 end
