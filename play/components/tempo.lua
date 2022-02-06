@@ -17,7 +17,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ]]
 
-local startTime = 1000
+local startTime = 800
 local kTime1 = startTime + 200
 local kTime2 = kTime1 + 200
 

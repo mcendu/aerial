@@ -86,10 +86,10 @@ return {
         {
             id = "bpm-frame",
             blend = 1,
-            loop = 833,
+            loop = 667,
             dst = {
-                { time = 667, x = 640, y = 0, w = 640, h = 128, a = 0 },
-                { time = 833, a = 255 }
+                { time = 500, x = 640, y = 0, w = 640, h = 128, a = 0 },
+                { time = 667, a = 255 }
             }
         },
         {
@@ -97,26 +97,26 @@ return {
             blend = 1,
             loop = 500,
             dst = {
-                { time = 333, x = 960, y = 129, w = 0, h = 3, acc = 2 },
-                { time = 500, x = 960 - 128, w = 256 }
+                { time = 333, x = 960 - 128, y = 129, w = 256, h = 3, a = 0 },
+                { time = 500, a = 255 }
             }
         },
         {
             id = "bpm-frame-rborder",
             blend = 1,
-            loop = 667,
+            loop = 333,
             dst = {
-                { time = 500, x = 849, y = 2, w = -192, h = 128, a = 0, acc = 2 },
-                { time = 667, a = 255 }
+                { time = 167, x = 959, y = 2, w = -192, h = 128, a = 0, acc = 2 },
+                { time = 333, x = 849, a = 255 }
             }
         },
         {
             id = "bpm-frame-rborder",
             blend = 1,
-            loop = 667,
+            loop = 333,
             dst = {
-                { time = 500, x = 1071, y = 2, w = 192, h = 128, a = 0, acc = 2 },
-                { time = 667, a = 255 }
+                { time = 167, x = 961, y = 2, w = 192, h = 128, a = 0, acc = 2 },
+                { time = 333, x = 1071, a = 255 }
             }
         },
     }
