@@ -17,6 +17,10 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ]]
 
+local startTime = 1000
+local kTime1 = startTime + 200
+local kTime2 = kTime1 + 200
+
 return {
     image = {
         { id = "label-min", src = 1, x = 0, y = 224, w = 64, h = 32 },
@@ -25,66 +29,66 @@ return {
     },
     value = {
         { id = "tempo", src = 1, x = 0, y = 0, w = 440, h = 40, divx = 11, digit = 3, ref = 160 },
-        { id = "min-tempo", src = 1, x = 0, y = 64, w = 264, h = 32, divx = 11, digit = 3, ref = 91 },
-        { id = "max-tempo", src = 1, x = 0, y = 64, w = 264, h = 32, divx = 11, digit = 3, ref = 90 },
+        { id = "min-tempo", src = 1, x = 0, y = 96, w = 264, h = 32, divx = 11, digit = 3, ref = 91 },
+        { id = "max-tempo", src = 1, x = 0, y = 96, w = 264, h = 32, divx = 11, digit = 3, ref = 90 },
     },
     destination = {
         {
             id = "label-bpm",
             blend = 1,
-            loop = 1000,
+            loop = kTime1,
             dst = {
-                { time = 800, x = 960 - 32, y = 20, w = 64, h = 32, a = 0 },
-                { time = 1000, a = 255 }
+                { time = startTime, x = 960 - 32, y = 20, w = 64, h = 32, a = 0 },
+                { time = kTime1, a = 255 }
             }
         },
         {
             id = "tempo",
             blend = 1,
-            loop = 1000,
+            loop = kTime1,
             dst = {
-                { time = 800, x = 900, y = 60, w = 40, h = 40, a = 0 },
-                { time = 1000, a = 255 }
+                { time = startTime, x = 900, y = 60, w = 40, h = 40, a = 0 },
+                { time = kTime1, a = 255 }
             }
         },
         {
             id = "label-min",
             blend = 1,
-            loop = 1000,
+            loop = kTime2,
             op = {177},
             dst = {
-                { time = 800, x = 840 - 32, y = 20, w = 64, h = 32, a = 0 },
-                { time = 1000, a = 255 }
+                { time = kTime1, x = 840 - 32, y = 20, w = 64, h = 32, a = 0 },
+                { time = kTime2, a = 255 }
             }
         },
         {
             id = "label-max",
             blend = 1,
-            loop = 1000,
+            loop = kTime2,
             op = {177},
             dst = {
-                { time = 800, x = 1080 - 32, y = 20, w = 64, h = 32, a = 0 },
-                { time = 1000, a = 255 }
+                { time = kTime1, x = 1080 - 32, y = 20, w = 64, h = 32, a = 0 },
+                { time = kTime2, a = 255 }
             }
         },
         {
             id = "min-tempo",
             blend = 1,
-            loop = 1000,
+            loop = kTime2,
             op = {177},
             dst = {
-                { time = 800, x = 840 - 36, y = 60, w = 24, h = 32, a = 0 },
-                { time = 1000, a = 255 }
+                { time = kTime1, x = 840 - 36, y = 60, w = 24, h = 32, a = 0 },
+                { time = kTime2, a = 255 }
             }
         },
         {
             id = "max-tempo",
             blend = 1,
-            loop = 1000,
+            loop = kTime2,
             op = {177},
             dst = {
-                { time = 800, x = 1080 - 36, y = 60, w = 24, h = 32, a = 0 },
-                { time = 1000, a = 255 }
+                { time = kTime1, x = 1080 - 36, y = 60, w = 24, h = 32, a = 0 },
+                { time = kTime2, a = 255 }
             }
         }
     }

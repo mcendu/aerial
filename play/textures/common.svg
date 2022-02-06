@@ -27,21 +27,23 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="2.8284271"
-     inkscape:cx="141.95169"
-     inkscape:cy="798.50033"
+     inkscape:cx="251.37646"
+     inkscape:cy="23.864854"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g1130-7"
+     inkscape:current-layer="g60522-8"
      inkscape:snap-bbox="true"
      inkscape:snap-nodes="false"
      inkscape:bbox-paths="false"
      inkscape:snap-bbox-edge-midpoints="false"
-     inkscape:bbox-nodes="true"
-     inkscape:snap-text-baseline="true"
-     inkscape:snap-grids="true">
+     inkscape:bbox-nodes="false"
+     inkscape:snap-text-baseline="false"
+     inkscape:snap-grids="false"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-object-midpoints="false">
     <inkscape:grid
        type="xygrid"
        id="grid1431"
@@ -335,6 +337,131 @@
            x="3440"
            y="1374"
            id="tspan48738-09">0</tspan></text>
+    </g>
+    <g
+       id="g60522-8"
+       style="fill:#ffffff;fill-opacity:1"
+       transform="translate(-3200,-1248)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3200"
+         y="1374"
+         id="text43770-21"><tspan
+           sodipodi:role="line"
+           x="3200"
+           y="1374"
+           id="tspan48738-56">0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1"
+         x="3488"
+         y="1374"
+         id="text43770-89-9"><tspan
+           sodipodi:role="line"
+           x="3488"
+           y="1374"
+           id="tspan48738-1-9">.</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3224"
+         y="1374"
+         id="text43770-3-9"><tspan
+           sodipodi:role="line"
+           x="3224"
+           y="1374"
+           id="tspan48738-8-2">1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3248"
+         y="1374"
+         id="text43770-36-1"><tspan
+           sodipodi:role="line"
+           x="3248"
+           y="1374"
+           id="tspan48738-85-4">2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3272"
+         y="1374"
+         id="text43770-1-7"><tspan
+           sodipodi:role="line"
+           x="3272"
+           y="1374"
+           id="tspan48738-7-2">3</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3296"
+         y="1374"
+         id="text43770-2-8"><tspan
+           sodipodi:role="line"
+           x="3296"
+           y="1374"
+           id="tspan48738-9-0">4</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3320"
+         y="1374"
+         id="text43770-7-6"><tspan
+           sodipodi:role="line"
+           x="3320"
+           y="1374"
+           id="tspan48738-0-1">5</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3344"
+         y="1374"
+         id="text43770-75-4"><tspan
+           sodipodi:role="line"
+           x="3344"
+           y="1374"
+           id="tspan48738-92-8">6</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3368"
+         y="1374"
+         id="text43770-0-2"><tspan
+           sodipodi:role="line"
+           x="3368"
+           y="1374"
+           id="tspan48738-5-5">7</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3392"
+         y="1374"
+         id="text43770-17-9"><tspan
+           sodipodi:role="line"
+           x="3392"
+           y="1374"
+           id="tspan48738-89-9">8</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;fill-opacity:1"
+         x="3416"
+         y="1374"
+         id="text43770-5-7"><tspan
+           sodipodi:role="line"
+           x="3416"
+           y="1374"
+           id="tspan48738-3-3">9</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:tabular-nums;font-variant-east-asian:normal;opacity:0.25;fill-opacity:1"
+         x="3440"
+         y="1374"
+         id="text43770-8-4"><tspan
+           sodipodi:role="line"
+           x="3440"
+           y="1374"
+           id="tspan48738-09-4">0</tspan></text>
     </g>
     <!-- Exo 2 x=0 y=128 w=15x12 h=20x2 -->
     <g
