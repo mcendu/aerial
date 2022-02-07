@@ -72,6 +72,9 @@ return function(anchorX, anchorY)
             { id = "hidden-amount", src = 1, x = 0, y = 128, w = 165, h = 20, divx = 11, digit = 3, ref = 315 },
             { id = "green-number", src = 1, x = 0, y = 128, w = 165, h = 20, divx = 11, digit = 3, ref = 313 },
         },
+        image = {
+            { id = "fadein-cover", src = 0, x = 1218, y = 0, w = 460, h = 710 }
+        },
         destination = {
             {
                 id = "lanecover",
@@ -83,10 +86,10 @@ return function(anchorX, anchorY)
             },
             {
                 id = "lift",
-                loop = 750,
+                loop = 1000,
                 dst = {
-                    { time = 333, x = anchorX, y = anchorY - height * 2, w = 460, h = height, acc = 2 },
-                    { time = 750, y = anchorY - height }
+                    { time = 500, x = anchorX, y = anchorY - height * 2, w = 460, h = height, acc = 2 },
+                    { time = 1000, y = anchorY - height }
                 }
             },
             {
@@ -95,6 +98,16 @@ return function(anchorX, anchorY)
                 dst = {
                     { time = 500, x = anchorX, y = anchorY - height * 2, w = 460, h = height, acc = 2 },
                     { time = 1000, y = anchorY - height }
+                }
+            },
+            {
+                id = "fadein-cover",
+                loop = -1,
+                dst = {
+                    { time = 0, x = anchorX, y = anchorY + 960, w = 460, h = 710, acc = 2 },
+                    { time = 333, y = anchorY },
+                    { time = 500, acc = 0 },
+                    { time = 667, y = anchorY + 710, h = 0 }
                 }
             }
         }

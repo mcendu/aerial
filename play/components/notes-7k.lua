@@ -48,10 +48,10 @@ return function(anchorX, anchorY, side)
         {
             id = "judge-line",
             offsets = {3},
-            loop = 750,
+            loop = 1333,
             dst = {
-                { time = 500, x = anchorX + 230, y = anchorY, w = 0, h = 24, acc = 2 },
-                { time = 750, x = anchorX, w = 460 }
+                { time = 1000, x = anchorX + 230, y = anchorY, w = 0, h = 24, acc = 2 },
+                { time = 1333, x = anchorX, w = 460 }
             }
         }
     }

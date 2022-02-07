@@ -23,20 +23,25 @@ return function(originX, side)
     local player_prefix
     local progress_border_x = 0
     local progress_tborder_x = 0
+    local notes_x = 0
 
     if side == 0 then
         player_prefix = "1p-"
         progress_border_x = originX + 38
         progress_tborder_x = progress_border_x - 30
+        notes_x = originX + 60
     else
         player_prefix = "2p-"
         progress_border_x = originX + 535
         progress_tborder_x = progress_border_x + 1
+        notes_x = originX + 56
     end
 
     c.image = {
         { id = "1p-stage", src = 0, x = 0, y = 0, w = 576, h = 960 },
         { id = "2p-stage", src = 0, x = 576, y = 0, w = 576, h = 960 },
+        { id = "stage-lborder", src = 0, x = 1216, y = 0, w = 2, h = 712 },
+        { id = "stage-baseline", src = 0, x = 1218, y = 710, w = 460, h = 2 },
 
         { id = "progress-border", src = 0, x = 1792, y = 128, w = 32, h = 594 },
         { id = "1p-progress-tborder", src = 0, x = 1824, y = 128, w = 32, h = 64 },
@@ -69,6 +74,38 @@ return function(originX, side)
             dst = {
                 { time = 667, x = progress_tborder_x, y = 983, w = 32, h = 64, a = 0 },
                 { time = 750, a = 255 }
+            }
+        },
+        {
+            id = "stage-lborder",
+            loop = 333,
+            dst = {
+                { time = 0, x = notes_x, y = 1080, w = -2, h = 0 },
+                { time = 333, y = 368, h = 712 }
+            }
+        },
+        {
+            id = "stage-lborder",
+            loop = 333,
+            dst = {
+                { time = 0, x = notes_x + 460, y = 1080, w = 2, h = 0 },
+                { time = 333, y = 368, h = 712 }
+            }
+        },
+        {
+            id = "stage-baseline",
+            loop = 500,
+            dst = {
+                { time = 333, x = notes_x, y = 368, w = 0, h = 2 },
+                { time = 500, w = 230 }
+            }
+        },
+        {
+            id = "stage-baseline",
+            loop = 500,
+            dst = {
+                { time = 333, x = notes_x + 460, y = 368, w = 0, h = 2 },
+                { time = 500, w = -230 }
             }
         }
     }
