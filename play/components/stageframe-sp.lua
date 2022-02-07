@@ -80,7 +80,7 @@ return function(originX, side)
             id = "stage-lborder",
             loop = 333,
             dst = {
-                { time = 0, x = notes_x, y = 1080, w = -2, h = 0 },
+                { time = 167, x = notes_x, y = 1080, w = -2, h = 0 },
                 { time = 333, y = 368, h = 712 }
             }
         },
@@ -88,7 +88,7 @@ return function(originX, side)
             id = "stage-lborder",
             loop = 333,
             dst = {
-                { time = 0, x = notes_x + 460, y = 1080, w = 2, h = 0 },
+                { time = 167, x = notes_x + 460, y = 1080, w = 2, h = 0 },
                 { time = 333, y = 368, h = 712 }
             }
         },
