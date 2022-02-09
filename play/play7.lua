@@ -52,6 +52,8 @@ local function main()
     s:addComponent(require("components.background"))
 
     s:addComponent(require("components.stage-sp")(options.playerSide()))
+    s:addComponent(require("components.graph-sp")(options.playerSide()))
+
     s:addComponent(require("components.movie-sp")(960, 660))
     s:addComponent(require("components.score")(options.playerSide()))
 
