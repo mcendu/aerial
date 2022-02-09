@@ -40,6 +40,12 @@ return {
                 { name = "EARLY/LATE", op = 905 },
                 { name = "TIME DIFF", op = 906 }
             }
+        },
+        {
+            name = "GRAPH", item = {
+                { name = "HIDE", op = 907 },
+                { name = "SHOW", op = 908 }
+            }
         }
     },
     filepath = {
@@ -57,5 +63,8 @@ return {
         elseif skin_config.option["PLAYER SIDE"] == 901 then
             return SIDE_2P
         end
+    end,
+    graphOn = function()
+        return skin_config.option["GRAPH"] == 908
     end
 }
