@@ -181,7 +181,6 @@ local function lines(originX, originY, side)
     c:addComponent(graph_line("line-a", 667, real_origin, originY + 420, 222, Timer.ScoreA))
     c:addComponent(graph_line("line-aa", 733, real_origin, originY + 490, 221, Timer.ScoreAA))
     c:addComponent(graph_line("line-aaa", 800, real_origin, originY + 560, 220, Timer.ScoreAAA))
-    c:addComponent(graph_line("line-max", 866, real_origin, originY + 630))
 
     return c
 end
