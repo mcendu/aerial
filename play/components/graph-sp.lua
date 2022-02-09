@@ -18,6 +18,7 @@
 ]]
 
 local Component = require("ash.skin")
+local Timer = require("ash.timer")
 
 -- Draws the graph itself.
 local function graph(originX, side)
@@ -114,8 +115,75 @@ local function graph(originX, side)
 end
 
 -- Draws the reference lines for A, AA, AAA, and perfect play.
-local function lines(originX, side)
+local function lines(originX, originY, side)
+    local function graph_line(name, fadeTime, originX, originY, op, timer)
+        if op == nil then
+            return {
+                destination = {
+                    {
+                        id = name,
+                        loop = fadeTime + 200,
+                        dst = {
+                            { time = fadeTime, x = originX, y = originY, w = 420, h = 32, a = 0 },
+                            { time = fadeTime + 200, a = 255 }
+                        }
+                    }
+                }
+            }
+        else
+            return {
+                destination = {
+                    {
+                        id = name,
+                        loop = fadeTime + 200,
+                        op = {-op},
+                        dst = {
+                            { time = fadeTime, x = originX, y = originY, w = 420, h = 32, a = 0 },
+                            { time = fadeTime + 200, a = 64 }
+                        }
+                    },
+                    {
+                        id = name,
+                        loop = 500,
+                        timer = timer,
+                        dst = {
+                            { time = 0, x = originX, y = originY, w = 420, h = 32, a = 255, r = 0xff, g = 0xff, b = 0xff },
+                            { time = 500, r = 0xd1, g = 0x94, b = 0xaf }
+                        }
+                    }
+                }
+            }
+        end
+    end
 
+    local line_a, line_aa, line_aaa, line_max
+    local real_origin
+
+    if side == 0 then
+        line_a = { id = "line-a", src = 0, x = 2048, y = 1280, w = 420, h = 32 }
+        line_aa = { id = "line-aa", src = 0, x = 2048, y = 1312, w = 420, h = 32 }
+        line_aaa = { id = "line-aaa", src = 0, x = 2048, y = 1344, w = 420, h = 32 }
+        line_max = { id = "line-max", src = 0, x = 2048, y = 1376, w = 420, h = 32 }
+        real_origin = originX - 360
+    else
+        line_a = { id = "line-a", src = 0, x = 2048, y = 1536, w = 420, h = 32 }
+        line_aa = { id = "line-aa", src = 0, x = 2048, y = 1568, w = 420, h = 32 }
+        line_aaa = { id = "line-aaa", src = 0, x = 2048, y = 1600, w = 420, h = 32 }
+        line_max = { id = "line-max", src = 0, x = 2048, y = 1632, w = 420, h = 32 }
+        real_origin = originX - 60
+    end
+
+    local c = Component:new {
+        image = { line_a, line_aa, line_aaa, line_max },
+        destination = {}
+    }
+
+    c:addComponent(graph_line("line-a", 667, real_origin, originY + 420, 222, Timer.ScoreA))
+    c:addComponent(graph_line("line-aa", 733, real_origin, originY + 490, 221, Timer.ScoreAA))
+    c:addComponent(graph_line("line-aaa", 800, real_origin, originY + 560, 220, Timer.ScoreAAA))
+    c:addComponent(graph_line("line-max", 866, real_origin, originY + 630))
+
+    return c
 end
 
 return function(side)
@@ -155,6 +223,7 @@ return function(side)
         }
     }
 
+    c:addComponent(lines(graph_origin, 370, side))
     c:addComponent(graph(graph_origin, side))
 
     return c
