@@ -156,25 +156,23 @@ local function lines(originX, originY, side)
         end
     end
 
-    local line_a, line_aa, line_aaa, line_max
+    local line_a, line_aa, line_aaa
     local real_origin
 
     if side == 0 then
         line_a = { id = "line-a", src = 0, x = 2048, y = 1280, w = 420, h = 32 }
         line_aa = { id = "line-aa", src = 0, x = 2048, y = 1312, w = 420, h = 32 }
         line_aaa = { id = "line-aaa", src = 0, x = 2048, y = 1344, w = 420, h = 32 }
-        line_max = { id = "line-max", src = 0, x = 2048, y = 1376, w = 420, h = 32 }
         real_origin = originX - 360
     else
         line_a = { id = "line-a", src = 0, x = 2048, y = 1536, w = 420, h = 32 }
         line_aa = { id = "line-aa", src = 0, x = 2048, y = 1568, w = 420, h = 32 }
         line_aaa = { id = "line-aaa", src = 0, x = 2048, y = 1600, w = 420, h = 32 }
-        line_max = { id = "line-max", src = 0, x = 2048, y = 1632, w = 420, h = 32 }
         real_origin = originX - 60
     end
 
     local c = Component:new {
-        image = { line_a, line_aa, line_aaa, line_max },
+        image = { line_a, line_aa, line_aaa },
         destination = {}
     }
 
