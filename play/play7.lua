@@ -45,6 +45,9 @@ local function main()
     }
 
     s.font = {
+        { id = "latin", path = "fonts/Exo2-Regular.ttf" },
+        { id = "latin-italic", path = "fonts/Exo2-Italic.ttf" },
+        { id = "latin-bold", path = "fonts/Exo2-Bold.ttf" },
         { id = "ja", path = "fonts/SourceHanSansJP-Regular.otf" },
         { id = "ja-bold", path = "fonts/SourceHanSansJP-Bold.otf" },
     }

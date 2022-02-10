@@ -23,9 +23,14 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this skin.  If not, see <https://www.gnu.org/licenses/>.
 
-This software uses Source Han Sans from Adobe, licensed under
-[SIL Open Font License, version 1.1.](OFL.txt)
+This software uses Source Han Sans from Adobe and Exo 2 by Natanael
+Gama et al., licensed under [SIL Open Font License, version 1.1.](OFL.txt)
 
 ## Credits
 
-- Thanks **Adobe** for Japanese fonts.
+- Thanks **Adobe** for creating Source Han Sans, the Japanese fonts
+  used in this skin.
+- Thanks **Natanael Gama** for creating Exo 2, the Latin font used
+  througout the design process.
+- Thanks **Matt McInerney** for creating Orbitron, a font used for
+  cool displays like numerals.

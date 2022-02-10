@@ -27,14 +27,14 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="2.8284271"
-     inkscape:cx="251.37646"
-     inkscape:cy="23.864854"
+     inkscape:cx="570.63517"
+     inkscape:cy="229.63293"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g60522-8"
+     inkscape:current-layer="layer1"
      inkscape:snap-bbox="true"
      inkscape:snap-nodes="false"
      inkscape:bbox-paths="false"
@@ -1181,7 +1181,8 @@
       </g>
     </g>
     <g
-       id="g39882">
+       id="g39882"
+       transform="translate(0,-4.8719999)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2 Bold';text-align:start;text-anchor:start;fill:#93bcd1;fill-opacity:1;stroke-width:0.999999"
@@ -1714,7 +1715,7 @@
            x="767.64801"
            y="54.327999"
            id="tspan44572-2-3"
-           sodipodi:role="line">自己のベスト</tspan></text>
+           sodipodi:role="line">自己ベスト</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Mplus 1p';-inkscape-font-specification:'Mplus 1p Bold';text-align:start;text-anchor:start;fill:#d19393;fill-opacity:1;stroke-width:0.999999"

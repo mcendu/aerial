@@ -183,10 +183,115 @@ local function lines(originX, originY, side)
     return c
 end
 
+-- Displays statistics.
+local function stats(originX, originY)
+    local scoreFadeinTime = 333
+    local highscoreFadeinTime = 400
+    local targetFadeinTime = 467
+
+    return {
+        image = {
+            { id = "label-score", src = 1, x = 512, y = 0, w = 256, h = 20 },
+            { id = "label-high", src = 1, x = 512, y = 32, w = 256, h = 20 },
+        },
+        text = {
+            { id = "label-target", font = "latin-bold", size = 24, ref = 1 }
+        },
+        value = {
+            { id = "stat-score", src = 1, x = 0, y = 128, w = 150, h = 20,
+                divx = 10, divy = 1, digit = 5, ref = 101 },
+            { id = "stat-high", src = 1, x = 0, y = 128, w = 150, h = 20,
+                divx = 10, divy = 1, digit = 5, ref = 150 },
+            { id = "stat-target", src = 1, x = 0, y = 128, w = 150, h = 20,
+                divx = 10, divy = 1, digit = 5, ref = 121 },
+            { id = "stat-high-diff", src = 1, x = 0, y = 128, w = 180, h = 40,
+                divx = 12, divy = 2, digit = 5, align = 1, ref = 152 },
+            { id = "stat-target-diff", src = 1, x = 0, y = 128, w = 180, h = 40,
+                divx = 12, divy = 2, digit = 5, align = 1, ref = 153 },
+        },
+        destination = {
+            {
+                id = "label-score",
+                blend = 1,
+                loop = scoreFadeinTime + 100,
+                dst = {
+                    { time = scoreFadeinTime, x = originX, y = originY - 20, w = 256, h = 20, a = 0 },
+                    { time = scoreFadeinTime + 100, a = 255 }
+                }
+            },
+            {
+                id = "stat-score",
+                blend = 1,
+                loop = scoreFadeinTime + 100,
+                dst = {
+                    { time = scoreFadeinTime, x = originX + 195, y = originY - 20, w = 15, h = 20, a = 0 },
+                    { time = scoreFadeinTime + 100, a = 255 }
+                }
+            },
+            {
+                id = "label-high",
+                blend = 1,
+                loop = highscoreFadeinTime + 100,
+                dst = {
+                    { time = highscoreFadeinTime, x = originX, y = originY - 50, w = 256, h = 20, a = 0 },
+                    { time = highscoreFadeinTime + 100, a = 255 }
+                }
+            },
+            {
+                id = "stat-high",
+                blend = 1,
+                loop = highscoreFadeinTime + 100,
+                dst = {
+                    { time = highscoreFadeinTime, x = originX + 195, y = originY - 50, w = 15, h = 20, a = 0 },
+                    { time = highscoreFadeinTime + 100, a = 255 }
+                }
+            },
+            {
+                id = "stat-high-diff",
+                blend = 1,
+                loop = highscoreFadeinTime + 100,
+                dst = {
+                    { time = highscoreFadeinTime, x = originX + 285, y = originY - 50, w = 15, h = 20, a = 0 },
+                    { time = highscoreFadeinTime + 100, a = 255 }
+                }
+            },
+            {
+                id = "label-target",
+                blend = 1,
+                loop = targetFadeinTime + 100,
+                dst = {
+                    { time = targetFadeinTime, x = originX + 2, y = originY - 86, w = 256, h = 24, a = 0,
+                        r = 0xd1, g = 0x93, b = 0x93 },
+                    { time = targetFadeinTime + 100, a = 255 }
+                }
+            },
+            {
+                id = "stat-target",
+                blend = 1,
+                loop = targetFadeinTime + 100,
+                dst = {
+                    { time = targetFadeinTime, x = originX + 195, y = originY - 80, w = 15, h = 20, a = 0 },
+                    { time = targetFadeinTime + 100, a = 255 }
+                }
+            },
+            {
+                id = "stat-target-diff",
+                blend = 1,
+                loop = targetFadeinTime + 100,
+                dst = {
+                    { time = targetFadeinTime, x = originX + 285, y = originY - 80, w = 15, h = 20, a = 0 },
+                    { time = targetFadeinTime + 100, a = 255 }
+                }
+            },
+        }
+    }
+end
+
 return function(side)
     local player_prefix
     local stage_origin = 0
     local graph_origin = 0
+    local stats_origin = 0
 
     -- The side of the graph is always the opposite of the side of the
     -- player. The input parameter, `side`, takes the side of the
@@ -196,10 +301,12 @@ return function(side)
         player_prefix = "2p-"
         stage_origin = 1920 - 596
         graph_origin = 1770
+        stats_origin = graph_origin - 360
     else
         player_prefix = "1p-"
         stage_origin = 20
         graph_origin = 150
+        stats_origin = graph_origin
     end
 
     local c = Component:new {
@@ -222,6 +329,7 @@ return function(side)
 
     c:addComponent(lines(graph_origin, 370, side))
     c:addComponent(graph(graph_origin, side))
+    c:addComponent(stats(stats_origin, 340))
 
     return c
 end
