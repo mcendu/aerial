@@ -25,7 +25,7 @@ local version = "0.1"
 
 local header = {
     type = Skin.SKINTYPE_7K,
-    name = "aerial -- 7K play " + version,
+    name = "aerial -- 7K play " .. version,
     w = 1920,
     h = 1080,
     loadend = 3000,
