@@ -21,9 +21,11 @@ local Skin = require("ash.skin")
 
 local options = require("config.options-sp")
 
+local version = "0.1"
+
 local header = {
     type = Skin.SKINTYPE_7K,
-    name = "aerial -- 7K play ALPHA",
+    name = "aerial -- 7K play " + version,
     w = 1920,
     h = 1080,
     loadend = 3000,
