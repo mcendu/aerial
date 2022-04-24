@@ -92,10 +92,8 @@ return function(centerX, centerY)
         destination = {
             {
                 id = "movie-frame",
-                loop = 667,
                 dst = {
-                    { time = 333, x = centerX - 352, y = centerY, w = 704, h = 0, acc = 2 },
-                    { time = 667, y = centerY - 256, h = 512 }
+                    { x = centerX - 352, y = centerY - 256, w = 704, h = 512 },
                 }
             }
         }
