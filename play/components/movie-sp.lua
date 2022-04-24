@@ -26,11 +26,9 @@ local function movie(centerX, centerY)
         destination = {
             {
                 id = "movie",
-                blend = 2,
                 loop = 1000,
                 dst = {
-                    { time = 667, x = centerX - 320, y = centerY - 240, w = 640, h = 480, a = 0 },
-                    { time = 1000, a = 255 }
+                    { time = 0, x = centerX - 320, y = centerY - 240, w = 640, h = 480 }
                 }
             }
         }
