@@ -54,6 +54,8 @@ local function main()
         { id = "ja-bold", path = "fonts/SourceHanSansJP-Bold.otf" },
     }
 
+    local difficulty = require("components.difficulty")
+
     s:addComponent(require("components.background"))
 
     s:addComponent(require("components.stage-sp")(options.playerSide()))
@@ -63,6 +65,9 @@ local function main()
     end
 
     s:addComponent(require("components.movie-sp")(960, 660))
+    s:addComponent(difficulty.image)
+    s:addComponent(difficulty.destination(570, 976))
+
     s:addComponent(require("components.score")(options.playerSide()))
 
     s:addComponent(require("components.fadeout"))
