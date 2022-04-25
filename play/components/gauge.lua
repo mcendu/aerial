@@ -21,9 +21,12 @@ local Beatoraja = require("main_state")
 
 return function(side, anchorX, anchorY)
     local direction = 1;
+    local hpNumberLeftX = anchorX + 376;
+    local hpNumberY = anchorY + 59
 
     if (side == 1) then
         direction = -1
+        hpNumberLeftX = anchorX - 108 - 376
     end
 
     local c = {
@@ -31,6 +34,7 @@ return function(side, anchorX, anchorY)
             { id = "gauge", path = "textures/gauge/*.png" }
         },
         image = {
+            { id = "hp-percent", src = 1, x = 320, y = 64, w = 36, h = 32 },
             -- Assisted Easy
             { id = "gaugeStart_a", src = "gauge", x = 0, y = 0, w = 25, h = 50 },
             { id = "gaugeEnd_a", src = "gauge", x = 65, y = 0, w = 25, h = 50 },
@@ -128,6 +132,22 @@ return function(side, anchorX, anchorY)
             }
         },
         destination = {
+            {
+                id = "hp",
+                loop = 833,
+                dst = {
+                    { time = 500, x = hpNumberLeftX, y = hpNumberY, w = 24, h = 32, a = 0 },
+                    { time = 833, a = 255 }
+                }
+            },
+            {
+                id = "hp-percent",
+                loop = 833,
+                dst = {
+                    { time = 500, x = hpNumberLeftX + 74, y = hpNumberY, w = 36, h = 32, a = 0 },
+                    { time = 833, a = 255 }
+                }
+            },
             {
                 id = "gauge",
                 loop = 333,
