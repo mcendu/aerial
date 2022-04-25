@@ -42,7 +42,7 @@ local decorations = {
             id = "tophud-rborder",
             loop = 333,
             dst = {
-                { time = 0, x = centerX, y = baselineY, w = -94, h = 64, a = 0, acc = 2 },
+                { time = 0, x = centerX, y = baselineY + 1, w = -96, h = 64, a = 0, acc = 2 },
                 { time = 333, x = centerX - 300, a = 255 }
             }
         },
@@ -50,7 +50,7 @@ local decorations = {
             id = "tophud-rborder",
             loop = 333,
             dst = {
-                { time = 0, x = centerX, y = baselineY, w = 94, h = 64, a = 0, acc = 2 },
+                { time = 0, x = centerX, y = baselineY + 1, w = 96, h = 64, a = 0, acc = 2 },
                 { time = 333, x = centerX + 300, a = 255 }
             }
         }
@@ -67,7 +67,7 @@ local function information(field)
                 id = "information",
                 loop = 1000,
                 dst = {
-                    { time = 500, x = centerX, y = baselineY + 12, w = 640, h = 24, a = 0 },
+                    { time = 500, x = centerX, y = baselineY + 14, w = 640, h = 24, a = 0 },
                     { time = 1000, a = 255 }
                 }
             }
