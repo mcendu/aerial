@@ -72,12 +72,12 @@ return {
     },
     destination = {
         -- layers below the base fail background
-        failBackgroundLeftHalf(layer1Time, 0xff, 0xd9, 0x66),
-        failBackgroundRightHalf(layer1Time, 0xff, 0xd9, 0x66),
-        failBackgroundLeftHalf(layer2Time, 0xff, 0x66, 0x66),
-        failBackgroundRightHalf(layer2Time, 0xff, 0x66, 0x66),
-        failBackgroundLeftHalf(layer3Time, 0x6f, 0x5d, 0x5d),
-        failBackgroundRightHalf(layer3Time, 0x6f, 0x5d, 0x5d),
+        failBackgroundLeftHalf(layer1Time, 0xff, 0x66, 0x66),
+        failBackgroundRightHalf(layer1Time, 0xff, 0x66, 0x66),
+        failBackgroundLeftHalf(layer2Time, 0xff, 0x99, 0x99),
+        failBackgroundRightHalf(layer2Time, 0xff, 0x99, 0x99),
+        failBackgroundLeftHalf(layer3Time, 0x46, 0x39, 0x39),
+        failBackgroundRightHalf(layer3Time, 0x46, 0x39, 0x39),
         -- base fail background
         failBackgroundLeftHalf(closeTime, 0x26, 0x26, 0x22),
         failBackgroundRightHalf(closeTime, 0x26, 0x26, 0x22),
