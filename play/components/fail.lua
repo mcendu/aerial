@@ -18,19 +18,108 @@
 ]]
 
 local Timer = require("ash.timer")
+local Image = require("ash.image")
+
+local centerX = 960
+local skewX = 290
+
+local closeTime = 1000
+local layer1Time = 400
+local layer2Time = 500
+local layer3Time = 700
+
+local halfTextmarkWidth = 580
+
+local function failBackgroundLeftHalf(time, r, g, b)
+    return {
+        id = "fail-background",
+        blend = 1,
+        loop = time,
+        timer = Timer.Fail,
+        dst = {
+            { time = 0, x = 0, y = 1080, w = 1540, h = 1080, acc = 2,
+                r = r, g = g, b = b },
+            { time = time, x = -skewX, y = 0, acc = 0 }
+        }
+    }
+end
+
+local function failBackgroundRightHalf(time, r, g, b)
+    return {
+        id = "fail-background",
+        blend = 1,
+        loop = time,
+        timer = Timer.Fail,
+        dst = {
+            { time = 0, x = centerX , y = -1080, w = 1540, h = 1080, acc = 2,
+                r = r, g = g, b = b },
+            { time = time, x = centerX - skewX, y = 0 }
+        }
+    }
+end
 
 return {
+    source = {
+        -- this name is hardcoded as fail animation is not intended to
+        -- be customized using textures alone
+        { id = "fail", path = "textures/fail/default.png" }
+    },
+    image = {
+        { id = "fail-background", src = "fail", x = 0, y = 0, w = 1540, h = 1080 },
+        { id = "fail-text-stripe", src = "fail", x = 0, y = 1152, w = 1920, h = 240 },
+        { id = "failtext-stage", src = "fail", x = 0, y = 1440, w = 560, h = 144 },
+        { id = "failtext-failed", src = "fail", x = 0, y = 1600, w = 600, h = 144 }
+    },
     destination = {
-        -- fail animation
+        -- layers below the base fail background
+        failBackgroundLeftHalf(layer1Time, 0xff, 0xd9, 0x66),
+        failBackgroundRightHalf(layer1Time, 0xff, 0xd9, 0x66),
+        failBackgroundLeftHalf(layer2Time, 0xff, 0x66, 0x66),
+        failBackgroundRightHalf(layer2Time, 0xff, 0x66, 0x66),
+        failBackgroundLeftHalf(layer3Time, 0x6f, 0x5d, 0x5d),
+        failBackgroundRightHalf(layer3Time, 0x6f, 0x5d, 0x5d),
+        -- base fail background
+        failBackgroundLeftHalf(closeTime, 0x26, 0x26, 0x22),
+        failBackgroundRightHalf(closeTime, 0x26, 0x26, 0x22),
+        -- "STAGE FAILED" wordmark
         {
-            id = "-111",
-            blend = 1,
-            loop = 1000,
+            id = "fail-text-stripe",
+            loop = 500,
             timer = Timer.Fail,
             dst = {
-                { time = 0, x = 0, y = 0, w = 1920, h = 1080, a = 0, r = 192, g = 0, b = 0 },
-                { time = 333, a = 255, acc = 2 },
-                { time = 1000, r = 0 }
+                { time = 0, x = 0, y = 540, w = 1920, h = 0, acc = 2 },
+                { time = 500, y = 420, h = 240 }
+            }
+        },
+        {
+            id = "failtext-stage",
+            loop = 2000,
+            filter = 1,
+            timer = Timer.Fail,
+            dst = {
+                { time = 0, x = centerX - halfTextmarkWidth, y = 540 - 72, w = 560, h = 144, a = 0 },
+                { time = 500, x = centerX - halfTextmarkWidth - 20, a = 255, acc = 2 },
+                { time = 2000, x = centerX - halfTextmarkWidth - 40 }
+            }
+        },
+        {
+            id = "failtext-failed",
+            loop = 2000,
+            filter = 1,
+            timer = Timer.Fail,
+            dst = {
+                { time = 0, x = centerX - 20, y = 540 - 72, w = 560, h = 144, a = 0 },
+                { time = 500, x = centerX, a = 255, acc = 2 },
+                { time = 2000, x = centerX + 20 }
+            }
+        },
+        {
+            id = Image.Black,
+            loop = 2000,
+            timer = Timer.Fail,
+            dst = {
+                { time = 1500, x = 0, y = 0, w = 1920, h = 1080, a = 0 },
+                { time = 2000, a = 255 }
             }
         }
     }
