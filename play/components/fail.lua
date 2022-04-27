@@ -98,8 +98,8 @@ return {
             timer = Timer.Fail,
             dst = {
                 { time = 0, x = centerX - halfTextmarkWidth, y = 540 - 72, w = 560, h = 144, a = 0 },
-                { time = 500, x = centerX - halfTextmarkWidth - 20, a = 255, acc = 2 },
-                { time = 2000, x = centerX - halfTextmarkWidth - 40 }
+                { time = 500, x = centerX - halfTextmarkWidth - 20, a = 255 },
+                { time = 2000, x = centerX - halfTextmarkWidth - 80 }
             }
         },
         {
@@ -109,8 +109,8 @@ return {
             timer = Timer.Fail,
             dst = {
                 { time = 0, x = centerX - 20, y = 540 - 72, w = 560, h = 144, a = 0 },
-                { time = 500, x = centerX, a = 255, acc = 2 },
-                { time = 2000, x = centerX + 20 }
+                { time = 500, x = centerX, a = 255 },
+                { time = 2000, x = centerX + 60 }
             }
         },
         {
