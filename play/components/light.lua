@@ -25,16 +25,16 @@ local width = {
     black = 40
 }
 
-local lightHeight = 350
+local lightHeight = 512
 
 local sprites = {
     source = {
         { id = "light", path = "textures/light/*.png" }
     },
     image = {
-        { id = "light-scratch", src = "light", x = 0, y = 0, w = 100, h = 350 },
-        { id = "light-white", src = "light", x = 120, y = 0, w = 60, h = 350 },
-        { id = "light-black", src = "light", x = 200, y = 0, w = 40, h = 350 },
+        { id = "light-scratch", src = "light", x = 0, y = 0, w = 100, h = 512 },
+        { id = "light-white", src = "light", x = 120, y = 0, w = 60, h = 512 },
+        { id = "light-black", src = "light", x = 200, y = 0, w = 40, h = 512 },
     }
 }
 

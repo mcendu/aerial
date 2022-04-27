@@ -27,23 +27,23 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="1"
-     inkscape:cx="250.5"
-     inkscape:cy="113.5"
+     inkscape:cx="466.5"
+     inkscape:cy="353.5"
      inkscape:window-width="1920"
      inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g60522"
-     inkscape:snap-bbox="false"
+     inkscape:current-layer="g72883"
+     inkscape:snap-bbox="true"
      inkscape:snap-nodes="false"
      inkscape:bbox-paths="false"
      inkscape:snap-bbox-edge-midpoints="false"
      inkscape:bbox-nodes="true"
-     inkscape:snap-text-baseline="true"
+     inkscape:snap-text-baseline="false"
      inkscape:snap-grids="true"
      inkscape:snap-bbox-midpoints="false"
-     inkscape:snap-object-midpoints="true">
+     inkscape:snap-object-midpoints="false">
     <inkscape:grid
        type="xygrid"
        id="grid1431"
@@ -1186,7 +1186,7 @@
        id="g72883">
       <g
          id="g63056"
-         transform="matrix(3.7795276,0,0,3.7795276,256,352)"
+         transform="matrix(3.7795276,0,0,3.7795276,256,304)"
          style="display:inline">
         <rect
            style="opacity:0.995;fill:#ff3366;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
@@ -1210,7 +1210,7 @@
       </g>
       <g
          id="g63056-5"
-         transform="matrix(3.7795276,0,0,3.7795276,256,288)"
+         transform="matrix(3.7795276,0,0,3.7795276,256,256)"
          style="display:inline">
         <rect
            style="opacity:0.995;fill:#ffcc33;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
@@ -1234,7 +1234,7 @@
       </g>
       <g
          id="g63056-0"
-         transform="matrix(3.7795276,0,0,3.7795276,256,224)"
+         transform="matrix(3.7795276,0,0,3.7795276,256,208)"
          style="display:inline">
         <rect
            style="opacity:0.995;fill:#33ff44;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
@@ -1282,7 +1282,7 @@
       </g>
       <g
          id="g63056-19"
-         transform="matrix(3.7795276,0,0,3.7795276,256,416)"
+         transform="matrix(3.7795276,0,0,3.7795276,256,352)"
          style="display:inline">
         <rect
            style="opacity:0.995;fill:#9933ff;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
@@ -1306,7 +1306,7 @@
       </g>
       <g
          id="g63056-19-3"
-         transform="matrix(3.7795276,0,0,3.7795276,768,512)"
+         transform="matrix(3.7795276,0,0,3.7795276,256,400)"
          style="display:inline">
         <rect
            style="opacity:0.995;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
@@ -1497,7 +1497,7 @@
          id="tspan51481"
          style="font-size:24px;text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
          x="191.19998"
-         y="637.68799">HARD GAUGE</tspan></text>
+         y="637.68799">HARD</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:end;text-anchor:end;display:inline;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
@@ -1508,7 +1508,7 @@
          id="tspan51481-4"
          style="font-size:24px;text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
          x="191.19998"
-         y="669.68799">EX-HARD GAUGE</tspan></text>
+         y="669.68799">EX-HARD</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:end;text-anchor:end;display:inline;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
@@ -1519,7 +1519,7 @@
          id="tspan51481-3"
          style="font-size:24px;text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
          x="191.19998"
-         y="573.68799">EASY GAUGE</tspan></text>
+         y="573.68799">EASY</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:end;text-anchor:end;display:inline;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
@@ -1530,7 +1530,7 @@
          id="tspan51481-7"
          style="font-size:24px;text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
          x="191.19998"
-         y="541.68799">AS-EASY GAUGE</tspan></text>
+         y="541.68799">ASSISTED EASY</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:end;text-anchor:end;display:inline;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
@@ -1552,7 +1552,7 @@
          id="tspan51481-2-3"
          style="font-size:24px;text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
          x="190.45599"
-         y="733.68799">P ATTACK</tspan></text>
+         y="733.68799">G ATTACK</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:24px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, ';text-align:end;text-anchor:end;display:inline;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
@@ -1574,7 +1574,7 @@
          id="tspan51481-5"
          style="font-size:24px;text-align:end;text-anchor:end;fill:#d194af;fill-opacity:1;stroke-width:0.999999"
          x="191.19998"
-         y="605.68799">GROOVE GAUGE</tspan></text>
+         y="605.68799">GROOVE</tspan></text>
     <text
        xml:space="preserve"
        style="fill:#ffffff;fill-opacity:1;font-size:40px;line-height:1.25;font-family:'Exo 2';-inkscape-font-specification:'Exo 2, Normal'"

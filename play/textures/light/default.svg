@@ -28,12 +28,12 @@
      inkscape:document-units="px"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="53.5"
-     inkscape:cy="224"
+     inkscape:cx="35.5"
+     inkscape:cy="223.5"
      inkscape:window-width="1284"
-     inkscape:window-height="1032"
-     inkscape:window-x="315"
-     inkscape:window-y="42"
+     inkscape:window-height="979"
+     inkscape:window-x="369"
+     inkscape:window-y="12"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1"
      inkscape:snap-page="true" />
@@ -43,11 +43,11 @@
        inkscape:collect="always"
        id="linearGradient3632">
       <stop
-         style="stop-color:#f07b75;stop-opacity:1;"
+         style="stop-color:#fad1d1;stop-opacity:1"
          offset="0"
          id="stop3628" />
       <stop
-         style="stop-color:#f07b75;stop-opacity:0;"
+         style="stop-color:#f07575;stop-opacity:0"
          offset="1"
          id="stop3630" />
     </linearGradient>
@@ -55,11 +55,11 @@
        inkscape:collect="always"
        id="linearGradient3203">
       <stop
-         style="stop-color:#f075ac;stop-opacity:1;"
+         style="stop-color:#e55c7e;stop-opacity:1"
          offset="0"
          id="stop3199" />
       <stop
-         style="stop-color:#f075ac;stop-opacity:0;"
+         style="stop-color:#e55c7e;stop-opacity:0"
          offset="1"
          id="stop3201" />
     </linearGradient>
@@ -67,11 +67,11 @@
        inkscape:collect="always"
        id="linearGradient2205">
       <stop
-         style="stop-color:#d194b0;stop-opacity:1"
+         style="stop-color:#e573a7;stop-opacity:1"
          offset="0"
          id="stop2201" />
       <stop
-         style="stop-color:#d194af;stop-opacity:0"
+         style="stop-color:#e573a6;stop-opacity:0"
          offset="1"
          id="stop2203" />
     </linearGradient>
@@ -84,7 +84,7 @@
        x2="160"
        y2="0"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(20)" />
+       gradientTransform="translate(20,162)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3203"
@@ -94,7 +94,7 @@
        x2="200"
        y2="0"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(40)" />
+       gradientTransform="translate(40,162)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3632"
@@ -103,32 +103,33 @@
        y1="350"
        x2="100"
        y2="0"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,162)" />
   </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="opacity:0.995;fill:url(#linearGradient3634);stroke:none;paint-order:stroke fill markers;fill-opacity:1"
+       style="opacity:0.995;fill:url(#linearGradient3634);fill-opacity:1;stroke:none;paint-order:stroke fill markers"
        id="rect936"
        width="100"
        height="350"
        x="0"
-       y="0" />
+       y="162" />
     <rect
        style="opacity:0.995;fill:url(#linearGradient2135);fill-opacity:1;stroke:none;paint-order:stroke fill markers"
        id="rect1969"
        width="60"
        height="350"
        x="120"
-       y="0" />
+       y="162" />
     <rect
        style="opacity:0.995;fill:url(#linearGradient3205);fill-opacity:1;stroke:none;paint-order:stroke fill markers"
        id="rect2851"
        width="40"
        height="350"
        x="200"
-       y="0" />
+       y="162" />
   </g>
 </svg>
