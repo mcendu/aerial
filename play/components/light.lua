@@ -60,7 +60,7 @@ local function draw(anchorX, anchorY, relativeX, layout, scratchOn, scratchOff)
             id = sprite,
             timer = timerOn,
             offsets = {3},
-            loop = 100,
+            loop = 50,
             dst = {
                 {
                     time = 0,
@@ -70,7 +70,7 @@ local function draw(anchorX, anchorY, relativeX, layout, scratchOn, scratchOff)
                     h = 0
                 },
                 {
-                    time = 100,
+                    time = 50,
                     h = lightHeight
                 }
             }
