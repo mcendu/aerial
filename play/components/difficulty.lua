@@ -38,7 +38,7 @@ local image = {
         { id = "diff-hyper", src = 1, x = 256, y = 256, w = 200, h = 32 },
         { id = "diff-another", src = 1, x = 256, y = 304, w = 200, h = 32 },
         { id = "diff-insane", src = 1, x = 256, y = 352, w = 200, h = 32 },
-        { id = "diff-unknown", src = 1, x = 768, y = 400, w = 200, h = 32 }
+        { id = "diff-unknown", src = 1, x = 256, y = 400, w = 200, h = 32 }
     },
     value = {
         { id = "difficulty", src = 1, x = 0, y = 168, w = 150, h = 20,
