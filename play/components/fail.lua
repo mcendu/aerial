@@ -25,8 +25,8 @@ local skewX = 290
 
 local closeTime = 1000
 local layer1Time = 400
-local layer2Time = 500
-local layer3Time = 700
+local layer2Time = 450
+local layer3Time = 500
 
 local halfTextmarkWidth = 580
 
@@ -37,9 +37,9 @@ local function failBackgroundLeftHalf(time, r, g, b)
         loop = time,
         timer = Timer.Fail,
         dst = {
-            { time = 0, x = 0, y = 1080, w = 1540, h = 1080, acc = 2,
+            { time = 0, x = -skewX * 0.5 + 1, y = 1080, w = 1540, h = 1080, acc = 2,
                 r = r, g = g, b = b },
-            { time = time, x = -skewX, y = 0, acc = 0 }
+            { time = time, x = -skewX * 1.5 + 1, y = 0, acc = 0 }
         }
     }
 end
@@ -51,9 +51,9 @@ local function failBackgroundRightHalf(time, r, g, b)
         loop = time,
         timer = Timer.Fail,
         dst = {
-            { time = 0, x = centerX , y = -1080, w = 1540, h = 1080, acc = 2,
+            { time = 0, x = centerX + skewX * -1.5 - 1, y = -1080, w = 1540, h = 1080, acc = 2,
                 r = r, g = g, b = b },
-            { time = time, x = centerX - skewX, y = 0 }
+            { time = time, x = centerX + skewX * -0.5 - 1, y = 0 }
         }
     }
 end
